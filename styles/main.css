@@ -1,52 +1,159 @@
+*{
+  color:#3F3B50;
+  text-align: left;
+}
+
 header {
-   background: url(../images/heroimage.jpg) center / cover;
-   height: 60vh;
-   justify-content: center;
-   text-align: center;
+  height: 555px;
+  margin:0 6% 40px 6%;
  }
 
-body {
-  padding-bottom: 5rem;
-}
-
-h1 {
-  color: hsla(0, 0%, 100%, 0.9);
-  font-weight: bold;
-}
-
-.slogan {
-  color: hsla(0, 0%, 100%, 0.8);
-  font-weight: lighter;
-  font-size: 1.6rem;
-}
 
 main {
-  max-width: 900px;
+  max-width:1250px;
+  margin:0 auto;
 }
 
-.project-description {
-  padding-left: 0;
+/* navigation */
+nav{
+  padding:15px 95px;
 }
 
-.project img {
-  width: 100%;
+nav ul {
+  float:right;
 }
 
-footer.mdl-mini-footer {
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    padding: 8px;
+}
+
+footer {
+  background-color: #3F3B50;
   bottom: 0;
-  padding: 0.5rem;
-  position: fixed;
+  display: block;
+  position: static;
   width: 100%;
    z-index: 1;
 }
 
-footer.mdl-mini-footer > ul {
- margin: auto;
- font-size: 2rem;
+footer > ul {
+ display: inline;
+ font-size: 1rem;
+ float:left;
  }
 
- @media screen and (max-width: 1024px) {
+footer > .social-media{
+  float:right;
+}
+
+/*typography*/
+
+footer > li {
+  color: #9BA0B3;
+  display: inline;
+}
+
+footer a {
+  color: #9BA0B3;
+}
+
+header h1, header p{
+  margin-left: 220px;
+  padding:6px;
+  position: relative;
+    top: -80px;
+  width:710px;
+}
+
+h1 {
+  font-family: PaulGrotesk-Bold;
+  font-size:80px ;
+}
+
+h2{
+  font-family: PaulGrotesk-Bold;
+  font-size:45px ;
+}
+
+h3{
+  font-family: PaulGroteskSoft-Bold;
+  font-size:45px ;
+}
+
+h4{
+  font-family: PaulGroteskSoft-Bold;
+  font-size:40px ;
+}
+
+p{
+}
+
+.caseStudy-text {
+  font-family: PaulGrotesk-Regular;
+  font-size: 18px;
+  letter-spacing: .05rem;
+}
+
+.desc{
+  font-family: PaulGrotesk-light;
+  font-size: 24px;
+  letter-spacing: .1rem;
+  line-height: 30px;
+}
+
+.feat-project-text > h2{
+  margin:0 auto;
+}
+
+.label {
+  color: #9BA0B3;
+  font-family: PaulGrotesk-SemiBold;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+}
+
+.slogan {
+  font-family: PaulGrotesk-UltraLight;
+  font-size: 44px;
+  letter-spacing: .2rem;
+  line-height: 50px;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+/*Images and backgrounds*/
+  /*homepage*/
+.logo {
+  display: inline;
+  height:132px;
+  margin-left: 113px;
+  margin-top: 130px;
+  position: relative;
+    top: 15px;
+    z-index: 1;
+}
+
+.feat-bg {
+  background-image: url("../images/homepage/space-featBG.png");
+  image-resolution: 1250px;
+}
+
+.feat-project > div > a > img{
+  width:875px;
+  position: relative;
+    top:70px;
+    left:130px;
+}
+
+ /*@media screen and (max-width: 1024px) {
     header.mdl-layout__header {
       display: flex;
-    }
+    }*/
   }

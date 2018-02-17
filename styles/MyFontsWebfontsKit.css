@@ -1,0 +1,76 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3527079, 2018-02-15T23:40:19-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: PaulGrotesk-Bold by artill
+ * URL: https://www.myfonts.com/fonts/artill-typs/paul-grotesk/bold/
+ * 
+ * Webfont: PaulGrotesk-Light by artill
+ * URL: https://www.myfonts.com/fonts/artill-typs/paul-grotesk/light/
+ * 
+ * Webfont: PaulGrotesk-Regular by artill
+ * URL: https://www.myfonts.com/fonts/artill-typs/paul-grotesk/regular/
+ * 
+ * Webfont: PaulGrotesk-Medium by artill
+ * URL: https://www.myfonts.com/fonts/artill-typs/paul-grotesk/medium/
+ * 
+ * Webfont: PaulGrotesk-SemiBold by artill
+ * URL: https://www.myfonts.com/fonts/artill-typs/paul-grotesk/semi-bold/
+ * 
+ * Webfont: PaulGroteskSoft-Bold by artill
+ * URL: https://www.myfonts.com/fonts/artill-typs/paul-grotesk-soft/bold/
+ * 
+ * Webfont: PaulGroteskSoft-Light by artill
+ * URL: https://www.myfonts.com/fonts/artill-typs/paul-grotesk-soft/light/
+ * 
+ * Webfont: PaulGroteskSoft-Regular by artill
+ * URL: https://www.myfonts.com/fonts/artill-typs/paul-grotesk-soft/regular/
+ * 
+ * Webfont: PaulGroteskSoft-UltraLight by artill
+ * URL: https://www.myfonts.com/fonts/artill-typs/paul-grotesk-soft/ultra-light/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3527079
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright &#x00A9; 2016 by Fargus Meiser +  Lukas Bischoff artill. All rights reserved.
+ * 
+ * © 2018 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("/count/35d1a7");
+
+  
+@font-face {font-family: 'PaulGrotesk-Bold';src: url('webfonts/35D1A7_0_0.eot');src: url('webfonts/35D1A7_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/35D1A7_0_0.woff2') format('woff2'),url('webfonts/35D1A7_0_0.woff') format('woff'),url('webfonts/35D1A7_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PaulGrotesk-Light';src: url('webfonts/35D1A7_1_0.eot');src: url('webfonts/35D1A7_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/35D1A7_1_0.woff2') format('woff2'),url('webfonts/35D1A7_1_0.woff') format('woff'),url('webfonts/35D1A7_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PaulGrotesk-Regular';src: url('webfonts/35D1A7_2_0.eot');src: url('webfonts/35D1A7_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/35D1A7_2_0.woff2') format('woff2'),url('webfonts/35D1A7_2_0.woff') format('woff'),url('webfonts/35D1A7_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PaulGrotesk-Medium';src: url('webfonts/35D1A7_3_0.eot');src: url('webfonts/35D1A7_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/35D1A7_3_0.woff2') format('woff2'),url('webfonts/35D1A7_3_0.woff') format('woff'),url('webfonts/35D1A7_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PaulGrotesk-SemiBold';src: url('webfonts/35D1A7_4_0.eot');src: url('webfonts/35D1A7_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/35D1A7_4_0.woff2') format('woff2'),url('webfonts/35D1A7_4_0.woff') format('woff'),url('webfonts/35D1A7_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PaulGroteskSoft-Bold';src: url('webfonts/35D1A7_5_0.eot');src: url('webfonts/35D1A7_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/35D1A7_5_0.woff2') format('woff2'),url('webfonts/35D1A7_5_0.woff') format('woff'),url('webfonts/35D1A7_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PaulGroteskSoft-Light';src: url('webfonts/35D1A7_6_0.eot');src: url('webfonts/35D1A7_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/35D1A7_6_0.woff2') format('woff2'),url('webfonts/35D1A7_6_0.woff') format('woff'),url('webfonts/35D1A7_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PaulGroteskSoft-Regular';src: url('webfonts/35D1A7_7_0.eot');src: url('webfonts/35D1A7_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/35D1A7_7_0.woff2') format('woff2'),url('webfonts/35D1A7_7_0.woff') format('woff'),url('webfonts/35D1A7_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'PaulGroteskSoft-UltraLight';src: url('webfonts/35D1A7_8_0.eot');src: url('webfonts/35D1A7_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/35D1A7_8_0.woff2') format('woff2'),url('webfonts/35D1A7_8_0.woff') format('woff'),url('webfonts/35D1A7_8_0.ttf') format('truetype');}
+ 
