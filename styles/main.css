@@ -9,7 +9,7 @@ header {
  }
 
 
-main {
+main, .main{
   max-width:1250px;
   margin:0 auto;
 }
@@ -32,36 +32,94 @@ nav a {
     padding: 8px;
 }
 
+section{
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
 footer {
   background-color: #3F3B50;
-  bottom: 0;
+  color: #9BA0B3;
   display: block;
   position: static;
+  height: 60px;
   width: 100%;
-   z-index: 1;
+}
+
+footer > nav {
+  display: inline-flex;
+  margin-left:7%;
+  float:left;
 }
 
 footer > ul {
  display: inline;
  font-size: 1rem;
- float:left;
  }
 
 footer > .social-media{
   float:right;
 }
 
-/*typography*/
 
+/** other projects section **/
+.other-projects {
+  display:flex;
+  margin-top: 30px;
+}
+
+.middle-project{
+  margin:0 33px;
+}
+.project .project-name {
+  font-family: PaulGrotesk-Bold;
+  font-size: 20px;
+  letter-spacing: .1rem;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+
+/*** typography ***/
+
+a {
+  color:#F07E81;
+  font-family: PaulGroteskSoft-Light;
+  font-size: 20px;
+  text-decoration: none;
+}
+  a:hover{
+    color:#F0CF7E;
+    /*font-family: PaulGrotesk-Regular;*/
+  }
+
+/* footer */
 footer > li {
   color: #9BA0B3;
   display: inline;
 }
 
-footer a {
+footer a i{
   color: #9BA0B3;
 }
 
+footer>nav>ul>li>a {
+  color: #9BA0B3;
+  font-family: PaulGrotesk-SemiBold;
+  font-size: 18px;
+  margin-right: 70px;
+  margin-top:
+}
+  footer>nav>ul>li>a:hover {
+    color:#F07E81;
+  }
+
+footer > p {
+  color: #F07E81;
+}
+
+/* header */
 header h1, header p{
   margin-left: 220px;
   padding:6px;
@@ -70,6 +128,8 @@ header h1, header p{
   width:710px;
 }
 
+
+/* general text */
 h1 {
   font-family: PaulGrotesk-Bold;
   font-size:80px ;
@@ -83,6 +143,7 @@ h2{
 h3{
   font-family: PaulGroteskSoft-Bold;
   font-size:45px ;
+  letter-spacing: .2rem;
 }
 
 h4{
@@ -100,15 +161,49 @@ p{
 }
 
 .desc{
-  font-family: PaulGrotesk-light;
-  font-size: 24px;
-  letter-spacing: .1rem;
-  line-height: 30px;
+  font-family: PaulGrotesk-Light;
+  font-size: 22px;
+  letter-spacing: .07rem;
+  line-height: 29px;
 }
 
-.feat-project-text > h2{
+.uppercase{
+  text-transform: uppercase;
+}
+
+.read-more:hover i{
+  color:#F0CF7E;
+}
+
+/* Featured project & homepage */
+.feat-textbox{
+  width:50%;
   margin:0 auto;
 }
+.feat-project-text > h2{
+  letter-spacing: .5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.feat-project-text > .label{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.feat-project-text > .desc{
+  margin: 0 25% 20px 25%;
+  text-align: justify;
+  width:50%;
+}
+
+.feat-project > .read-more{
+  color:#F07E81;
+  margin-left: 25%
+}
+  .feat-project > .read-more:hover{
+    color:#F0CF7E;
+  }
 
 .label {
   color: #9BA0B3;
@@ -124,11 +219,16 @@ p{
   line-height: 50px;
 }
 
-.uppercase{
-  text-transform: uppercase;
+
+
+/*Icons*/
+.fas.fa-caret-right{
+  color:#F07E81;
+  padding:10px 5px 0px 5px;
+  width:15px;
 }
 
-/*Images and backgrounds*/
+/*Images and backgrounds and logo*/
   /*homepage*/
 .logo {
   display: inline;
@@ -142,14 +242,14 @@ p{
 
 .feat-bg {
   background-image: url("../images/homepage/space-featBG.png");
-  image-resolution: 1250px;
+  margin-bottom: 150px;
 }
 
 .feat-project > div > a > img{
   width:875px;
   position: relative;
     top:70px;
-    left:130px;
+    left:15%;
 }
 
  /*@media screen and (max-width: 1024px) {
