@@ -9,7 +9,7 @@ header {
  }
 
 
-main, .main{
+main {
   max-width:1250px;
   margin:0 auto;
 }
@@ -37,52 +37,21 @@ section{
   margin-bottom: 100px;
 }
 
-footer {
-  background-color: #3F3B50;
-  color: #9BA0B3;
-  display: block;
-  position: static;
-  height: 60px;
-  width: 100%;
+/***--------------------***/
+/***------- Icons ------***/
+/***--------------------***/
+
+.fas.fa-caret-right{
+  color:#F07E81;
+  padding:10px 5px 0px 5px;
+  width:15px;
 }
 
-footer > nav {
-  display: inline-flex;
-  margin-left:7%;
-  float:left;
-}
+/***---------------------------***/
+/****------- typography ------****/
+/***---------------------------***/
 
-footer > ul {
- display: inline;
- font-size: 1rem;
- }
-
-footer > .social-media{
-  float:right;
-}
-
-
-/** other projects section **/
-.other-projects {
-  display:flex;
-  margin-top: 30px;
-}
-
-.middle-project{
-  margin:0 33px;
-}
-.project .project-name {
-  font-family: PaulGrotesk-Bold;
-  font-size: 20px;
-  letter-spacing: .1rem;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-
-
-/*** typography ***/
-
+/* link typography */
 a {
   color:#F07E81;
   font-family: PaulGroteskSoft-Light;
@@ -94,32 +63,11 @@ a {
     /*font-family: PaulGrotesk-Regular;*/
   }
 
-/* footer */
-footer > li {
-  color: #9BA0B3;
-  display: inline;
+.read-more:hover i{
+  color:#F0CF7E;
 }
 
-footer a i{
-  color: #9BA0B3;
-}
-
-footer>nav>ul>li>a {
-  color: #9BA0B3;
-  font-family: PaulGrotesk-SemiBold;
-  font-size: 18px;
-  margin-right: 70px;
-  margin-top:
-}
-  footer>nav>ul>li>a:hover {
-    color:#F07E81;
-  }
-
-footer > p {
-  color: #F07E81;
-}
-
-/* header */
+/* header  typography*/
 header h1, header p{
   margin-left: 220px;
   padding:6px;
@@ -129,7 +77,7 @@ header h1, header p{
 }
 
 
-/* general text */
+/* general typography */
 h1 {
   font-family: PaulGrotesk-Bold;
   font-size:80px ;
@@ -154,6 +102,7 @@ h4{
 p{
 }
 
+/* common text-styles typography*/
 .caseStudy-text {
   font-family: PaulGrotesk-Regular;
   font-size: 18px;
@@ -167,15 +116,23 @@ p{
   line-height: 29px;
 }
 
+.label {
+  color: #9BA0B3;
+  font-family: PaulGrotesk-SemiBold;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+}
+
 .uppercase{
   text-transform: uppercase;
 }
 
-.read-more:hover i{
-  color:#F0CF7E;
-}
 
-/* Featured project & homepage */
+/***------------------------------------***/
+/***--------- Homepage specific --------***/
+/***------------------------------------***/
+
+/* typography */
 .feat-textbox{
   width:50%;
   margin:0 auto;
@@ -205,13 +162,6 @@ p{
     color:#F0CF7E;
   }
 
-.label {
-  color: #9BA0B3;
-  font-family: PaulGrotesk-SemiBold;
-  font-size: 1rem;
-  letter-spacing: .1rem;
-}
-
 .slogan {
   font-family: PaulGrotesk-UltraLight;
   font-size: 44px;
@@ -219,17 +169,7 @@ p{
   line-height: 50px;
 }
 
-
-
-/*Icons*/
-.fas.fa-caret-right{
-  color:#F07E81;
-  padding:10px 5px 0px 5px;
-  width:15px;
-}
-
-/*Images and backgrounds and logo*/
-  /*homepage*/
+/* Images and backgrounds and logo */
 .logo {
   display: inline;
   height:132px;
@@ -251,6 +191,89 @@ p{
     top:70px;
     left:15%;
 }
+
+
+/***--------------------------***/
+/***- other projects section -***/
+/***--------------------------***/
+
+.other-projects {
+  display:flex;
+  margin-top: 30px;
+}
+
+.middle-project{
+  margin:0 33px;
+}
+
+.project .project-name {
+  font-family: PaulGrotesk-Bold;
+  font-size: 20px;
+  letter-spacing: .1rem;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.project .desc{
+  font-size: 18px;
+}
+
+
+/***--------------------***/
+/***------ Footer ------***/
+/***--------------------***/
+
+footer {
+  background-color: #3F3B50;
+  display: block;
+  position: static;
+  height: 60px;
+  width: 100%;
+}
+
+footer > nav {
+  margin-left:7%;
+  float:left;
+}
+
+footer>nav>ul>li>a {
+  color: #9BA0B3;
+  font-family: PaulGrotesk-SemiBold;
+  font-size: 18px;
+  margin-right: 70px;
+  margin-top:
+}
+  footer>nav>ul>li>a:hover {
+    color:#F07E81;
+  }
+
+/* footer call to action*/
+footer > p {
+  color: #F07E81;
+  display: flex;
+  font-family: PaulGrotesk-Regular;
+  width:425px;
+}
+
+/* social media icons*/
+footer a i{
+  color: #9BA0B3;
+}
+  footer a i:hover{
+    color: #F07E81;
+  }
+
+footer > ul.social-media > li {
+  margin: 5px 10px;
+}
+
+footer > .social-media{
+  display: inline-flex;
+  float:right;
+  margin-right: 12%;
+}
+
 
  /*@media screen and (max-width: 1024px) {
     header.mdl-layout__header {
