@@ -65,7 +65,6 @@ a {
 }
   a:hover{
     color:#F0CF7E;
-    /*font-family: PaulGrotesk-Regular;*/
   }
 
 .read-more:hover i{
@@ -73,13 +72,7 @@ a {
 }
 
 /* header  typography*/
-header h1, header p{
-  margin-left: 220px;
-  padding:6px;
-  position: relative;
-    top: -80px;
-  width:710px;
-}
+
 
 
 /* general typography */
@@ -97,6 +90,7 @@ h3{
   font-family: PaulGroteskSoft-Bold;
   font-size:45px ;
   letter-spacing: .2rem;
+  margin: 30px 0;
 }
 
 h4{
@@ -105,13 +99,15 @@ h4{
 }
 
 p{
+  margin-bottom: 15px;
 }
 
 /* common text-styles typography*/
 .caseStudy-text {
-  font-family: PaulGrotesk-Regular;
+  font-family: PaulGrotesk-regular;
   font-size: 18px;
   letter-spacing: .05rem;
+  line-height: 25px;
 }
 
 .desc{
@@ -138,6 +134,15 @@ p{
 /***------------------------------------***/
 
 /* typography */
+
+.opening{
+  margin-left: 220px;
+  padding:6px;
+  position: relative;
+    top: -80px;
+  width:710px;
+}
+
 .feat-textbox{
   width:50%;
   margin:0 auto;
@@ -198,6 +203,49 @@ p{
 }
 
 
+/***-----------------------------------------------------------***/
+/***--------- casestudy specific  - ordered by section --------***/
+/***-----------------------------------------------------------***/
+
+/* common */
+.textbox{
+  width:718px;
+  margin-left: 16%;
+}
+
+.colored {
+  background-color: #F3F4FA;
+  padding: 30px 60px 60px 60px;
+}
+
+/* prototypes */
+.prototypes{
+  display: flex;
+}
+
+.half{
+  width:50%;
+}
+
+.half> a {
+  margin: 0 auto;
+}
+
+/* conclusion */
+.large-textbox {
+  margin: 0 20%;
+  width:60%;
+}
+
+.subhead {
+  color:#F0A377;
+  font-family: PaulGrotesk-Bold;
+  letter-spacing: .09rem;
+  margin-top: 25px;
+  text-transform: uppercase;
+
+}
+
 /***--------------------------***/
 /***- other projects section -***/
 /***--------------------------***/
@@ -229,7 +277,7 @@ p{
 /***------ Footer ------***/
 /***--------------------***/
 
-footer {
+footer{
   background-color: #3F3B50;
   display: block;
   height: 60px;
@@ -244,15 +292,30 @@ footer > div > nav {
   width:25%;
 }
 
-footer>div>nav>ul>li>a {
+footer nav a {
   color: #9BA0B3;
   font-family: PaulGrotesk-SemiBold;
   font-size: 18px;
   margin-right: 70px;
 }
-  footer>div>nav>ul>li>a:hover {
+  footer nav a:hover {
     color:#F07E81;
   }
+
+  footer h3{
+    color:#F07E81;
+    margin-top:30px ;
+  }
+
+footer p{
+  color:#F3F4FA;
+}
+
+footer p.desc {
+  font-family: PaulGrotesk-regular;
+  line-height: 25px;
+  letter-spacing: .1rem;
+}
 
 /* footer call to action*/
 footer > div > p {
@@ -285,7 +348,14 @@ footer > div > .social-media{
   width:25%;
 }
 
+.large-footer{
+  height:750px;
+}
 
+.bottom{
+  position: relative;
+    bottom: -35px;
+}
  /*@media screen and (max-width: 1024px) {
     header.mdl-layout__header {
       display: flex;
