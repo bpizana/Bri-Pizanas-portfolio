@@ -37,6 +37,11 @@ section{
   margin-bottom: 100px;
 }
 
+.main{
+  width:75%;
+  margin:0 auto;
+}
+
 /***--------------------***/
 /***------- Icons ------***/
 /***--------------------***/
@@ -227,33 +232,38 @@ p{
 footer {
   background-color: #3F3B50;
   display: block;
-  position: static;
   height: 60px;
+  overflow: hidden;
   width: 100%;
 }
 
-footer > nav {
-  margin-left:7%;
+footer > div > nav {
+  display: inline-block;
   float:left;
+  padding-left: 0;
+  width:25%;
 }
 
-footer>nav>ul>li>a {
+footer>div>nav>ul>li>a {
   color: #9BA0B3;
   font-family: PaulGrotesk-SemiBold;
   font-size: 18px;
   margin-right: 70px;
-  margin-top:
 }
-  footer>nav>ul>li>a:hover {
+  footer>div>nav>ul>li>a:hover {
     color:#F07E81;
   }
 
 /* footer call to action*/
-footer > p {
+footer > div > p {
   color: #F07E81;
-  display: flex;
+  display: inline-block;
   font-family: PaulGrotesk-Regular;
-  width:425px;
+  letter-spacing: .1rem;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: center;
+  width:29%;
 }
 
 /* social media icons*/
@@ -264,14 +274,15 @@ footer a i{
     color: #F07E81;
   }
 
-footer > ul.social-media > li {
+footer > div > ul.social-media > li {
   margin: 5px 10px;
 }
 
-footer > .social-media{
+footer > div > .social-media{
   display: inline-flex;
   float:right;
-  margin-right: 12%;
+  margin-top: 15px;
+  width:25%;
 }
 
 
