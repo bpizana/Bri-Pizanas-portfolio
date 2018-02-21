@@ -1,17 +1,19 @@
 *{
   color:#3F3B50;
-  text-align: left;
 }
 
 header {
-  height: 555px;
+  /*height: 555px;*/
   margin:0 6% 40px 6%;
  }
 
-
 main {
-  max-width:1250px;
+  max-width:72%;
   margin:0 auto;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* navigation */
@@ -38,7 +40,7 @@ section{
 }
 
 .main{
-  width:75%;
+  width:72%;
   margin:0 auto;
 }
 
@@ -95,7 +97,8 @@ h3{
 
 h4{
   font-family: PaulGroteskSoft-Bold;
-  font-size:40px ;
+  font-size:35px ;
+  margin: 30px 0;
 }
 
 p{
@@ -122,6 +125,7 @@ p{
   font-family: PaulGrotesk-SemiBold;
   font-size: 1rem;
   letter-spacing: .1rem;
+  margin-top: 7px;
 }
 
 .uppercase{
@@ -195,7 +199,7 @@ p{
   margin-bottom: 150px;
 }
 
-.feat-project > div > a > img{
+.feat-project img{
   width:875px;
   position: relative;
     top:70px;
@@ -208,9 +212,9 @@ p{
 /***-----------------------------------------------------------***/
 
 /* common */
-.textbox{
-  width:718px;
-  margin-left: 16%;
+
+.align-top{
+  vertical-align: top;
 }
 
 .colored {
@@ -218,16 +222,232 @@ p{
   padding: 30px 60px 60px 60px;
 }
 
-/* prototypes */
-.prototypes{
-  display: flex;
-}
+/* grid */
 
 .half{
-  width:50%;
+  display: inline-block;
+  width:49%;
 }
 
-.half> a {
+.section-label {
+  display:inline-flex;
+  float: left;
+  width:16%;
+}
+
+.textbox{
+  display: inline-block;
+  width:58%;
+  /*margin-left: 16%;*/
+}
+
+/* spacing */
+
+.margin-left {
+  margin-left: 16%;
+}
+
+.padding-top {
+  margin-top: 50px;
+}
+
+.top-bottom {
+  margin:50px 0;
+}
+
+
+/* lines */
+.line {
+background: #9BA0B3  no-repeat scroll center;
+height:1px;
+margin: 0  0 50px 0;
+width:100%;
+}
+
+.vertical-line {
+  background: #9BA0B3  no-repeat scroll center;
+  height:100px;
+  float: left;
+  margin: 15px 20px 20px 50px;
+  width:1px;
+}
+
+.sm-vertical-line {
+  background: #9BA0B3  no-repeat scroll center;
+  height:75px;
+  float: left;
+  margin: 15px 20px 0px 50px;
+  width:1px;
+}
+
+.vertical-line-lg {
+  background: #9BA0B3  no-repeat scroll center;
+  height:235px;
+  float: left;
+  margin: 0px 20px 0px 50px;
+  width:1px;
+}
+
+
+
+.quote{
+  color: #9BA0B3;
+  font-family: PaulGrotesk-SemiBold;
+  font-size: 1rem;
+  letter-spacing: .05rem;
+  line-height: 25px;
+  margin: 30px 0;
+}
+
+/* header */
+.center{
+text-align: center;
+}
+
+.light{
+  font-family: paulGrotesk-Light;
+  padding-top:10px;
+}
+
+
+/* challenges insights and solutions */
+.num-list {
+  font-family: PaulGrotesk-SemiBold;
+  letter-spacing: .04rem;
+  line-height: 25px;
+}
+
+/* Role deliverables and tools */
+.third {
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  margin:20px;
+}
+
+
+.med-text {
+  font-family: PaulGrotesk-Medium;
+  line-height: 25px;
+}
+
+
+/* assumptions */
+
+/* user research */
+.percent-desc {
+  font-family: PaulGrotesk-SemiBold;
+  font-size: 16px;
+  letter-spacing: .05rem;
+  line-height: 20px;
+  text-align: left;
+  width: 80%;
+}
+
+/* persona */
+.persona-l{
+  padding: 0 25px 0 23%;
+}
+
+.persona-r{
+  padding: 0 23% 0 25px;
+}
+
+/* compentive analysis */
+
+/* user flows and user stories */
+
+/* branding */
+.branding {
+  letter-spacing: .05em;
+  margin-bottom: 50px;
+}
+/* color pallete */
+
+/* text */
+
+/* low fedelity wireframes */
+
+/* A AND B TESTING  */
+.ab-desk-img {
+width:95%;
+}
+
+/* user testing video */
+
+/* final product */
+.quarter {
+  display: inline-block;
+  width:25%;
+}
+.screens {
+  background-image: url("../images/space/final-mbg.png");
+  display: inline-block;
+  height:1050px;
+  padding:100px;
+}
+  /* mobile */
+
+  .row-1 {
+    position: relative;
+      top:-100px;
+  }
+
+  .row-2{
+    position: relative;
+      top:0;
+  }
+
+  .row-3{
+    position: relative;
+      top:200px;
+  }
+
+  .row-4{
+    position: relative;
+      top:-500px;
+      left:770px;
+  }
+
+  .smaller {
+    max-width: 100%;
+    /*width:25%;*/
+  }
+
+  /*desktop*/
+  .col-1-desktop {
+    width:49%;
+    float:left;
+  }
+
+  .col-2-desktop {
+    float:right;
+    width:49%;
+    position: relative;
+      top:100px;
+  }
+
+/*product features*/
+.left {
+  float: left;
+}
+
+.right{
+  float:right;
+}
+
+.prod-feat{
+  height:400px;
+}
+
+/* prototypes */
+.prototypes{
+  display: inline;
+  width:100%;
+  height:300px;
+}
+
+.half > a {
   margin: 0 auto;
 }
 
@@ -249,6 +469,10 @@ p{
 /***--------------------------***/
 /***- other projects section -***/
 /***--------------------------***/
+
+.project{
+  width:30%;
+}
 
 .other-projects {
   display:flex;
@@ -354,7 +578,7 @@ footer > div > .social-media{
 
 .bottom{
   position: relative;
-    bottom: -35px;
+    bottom: -65px;
 }
  /*@media screen and (max-width: 1024px) {
     header.mdl-layout__header {
