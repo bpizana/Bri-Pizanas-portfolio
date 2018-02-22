@@ -3,124 +3,133 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio | Bri Pizana</title>
+    <!-- reset -->
+    <link rel="stylesheet" href="styles/reset.css">
     <!-- Font Awesome Icons -->
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- fonts -->
+    <link rel="stylesheet" type="text/css" href="styles/MyFontsWebfontsKit.css">
     <!-- Custom Styles -->
-    <!-- <link rel="stylesheet" href="styles/main.css"> -->
-
+    <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
-    <nav>
-      <img src="images/main nav/logo-bri.png" alt="Bri Pizaña logo"/>
+    <nav >
+      <img  id="logo" src="images/main nav/logo-bri.png" alt="Bri Pizaña logo"/>
       <ul>
         <li><a href="index.html">My Work</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
-    <nav>
+    </nav>
     <header>
-      <img src="images/homepage/mark.png" alt="project screenshot"/>
-      <h1>Hi! I'm Bri,</h1>
-      <p>A user experience designer based in the San Fransisco Bay Area</p>
-      <p>Take a look around if you like what you see, feel free to contact me with questions, comments, or a coffee date.</p>
+      <img class="logo" src="images/homepage/mark.png" alt="project screenshot"/>
+      <h1 class="opening">Hi! I'm Bri,</h1>
+      <p class="slogan opening">A user experience designer based in the San Fransisco Bay Area</p>
+      <p class="desc opening">Take a look around if you like what you see, feel free to contact me with questions, comments, or a coffee date.</p>
     </header>
     <main>
-      <section>
-        <div>
+      <section class="feat-project">
+        <div class="feat-bg">
           <a href="Project.html">
             <img src="images/homepage/spaceFeat.png" alt="project screenshot"/>
           </a>
          </div>
-         <article>
-            <h2>SPACE</h2>
-            <p>User Experience Design &amp; Branding</p>
-            <p>Cloud storage is a tool used by almost everyone in both their personal and professional lives. So the goal of Space is to provide a user experience that fits the needs of users no matter what they are using it for.</p>
+         <article class="feat-project-text">
+            <h2 >SPACE</h2>
+            <p class="label">User Experience Design &amp; Branding</p>
+            <p class="desc">Cloud storage is a tool used by almost everyone in both their personal and professional lives. So the goal of Space is to provide a user experience that fits the needs of users no matter what they are using it for.</p>
          </article>
-         <a href="Project.html">Case Study <img src="images/Common/arrowRight.png" alt="arrow to right"/></a>
+         <a class="read-more" href="Project.html">Case Study <i class="fas fa-caret-right"></i></a>
       </section>
 
-      <section>
+      <section >
         <h3>Other Projects</h3>
-
-        <div>
-          <div>
-            <img src="" alt="project screenshot"/>
+        <div class="other-projects">
+          <div class="project">
+            <div>
+              <img src="images/Common/placeholderimage.png" alt="project screenshot"/>
+            </div>
+            <p class="project-name">Project Name</p>
+            <p class="desc">Project description text</p>
+            <a class="read-more" href="#">Read More <i class="fas fa-caret-right"></i></a>
           </div>
-          <p>Project Name</p>
-          <p>Project description text</p>
-          <a href="#">Read More <img src="images/Common/arrowRight.png" alt="arrow to right"/></a>
-        </div>
 
-        <div>
-          <div>
-            <img src="" alt="project screenshot"/>
+          <div class="project middle-project">
+            <div>
+              <img src="images/Common/placeholderimage.png" alt="project screenshot"/>
+            </div>
+            <p class="project-name">Project Name</p>
+            <p class="desc">Project description text</p>
+            <a class="read-more" href="#">Read More <i class="fas fa-caret-right"></i></a>
           </div>
-          <p>Project Name</p>
-          <p>Project description text</p>
-          <a href="#">Read More <img src="images/Common/arrowRight.png" alt="arrow to right"/></a>
-        </div>
 
-        <div>
-          <div>
-            <img src="" alt="project screenshot"/>
+          <div class="project">
+            <div>
+              <img src="images/Common/placeholderimage.png" alt="project screenshot"/>
+            </div >
+            <p class="project-name">Project Name</p>
+            <p class="desc">Summary text would go here. no more then a couple of sectences, keep it breif.</p>
+            <a class="read-more" href="#">
+              Read More
+              <i class="fas fa-caret-right"></i>
+            </a>
           </div>
-          <p>Project Name</p>
-          <p>Project description text</p>
-          <a href="#">Read More <img src="images/Common/arrowRight.png" alt="arrow to right"/></a>
         </div>
       </section>
 
      </main>
 
      <footer>
+       <div class="main">
+        <nav>
+          <ul>
+            <li><a href="index.html">My Work</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
 
-      <nav>
-        <ul>
-          <li><a href="index.html">My Work</a></li>
-          <li><a href="about.html">About</a></li>
+        <p class="middle-project">Like my work? Lets connect!</p>
+
+        <ul class="social-media">
+          <li>
+            <a href="https://www.linkedin.com/in/bpizana/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/bpizana" target="_blank">
+              <i class="fab fa-github-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/brianna.pizana" target="_blank">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/b_pizana/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/brianna_pizana" target="_blank">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://dribbble.com/Bpizana" target="_blank">
+              <i class="fab fa-dribbble-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:bripiz@gmail.com" target="_blank">
+              <i class="far fa-envelope"></i>
+            </a>
+          </li>
         </ul>
-      <nav>
-
-      <p>Like my work? Lets connect!</p>
-
-      <ul>
-        <li>
-          <a href="https://www.linkedin.com/in/bpizana/" target="_blank">
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/bpizana" target="_blank">
-            <i class="fab fa-github-square"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/brianna.pizana" target="_blank">
-            <i class="fab fa-facebook-square"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/b_pizana/" target="_blank">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/brianna_pizana" target="_blank">
-            <i class="fab fa-twitter-square"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://dribbble.com/Bpizana" target="_blank">
-            <i class="fab fa-dribbble-square"></i>
-          </a>
-        </li>
-        <li>
-          <a href="mailto:bripiz@gmail.com" target="_blank">
-            <i class="far fa-envelope"></i>
-          </a>
-        </li>
-      </ul>
-
+      </div>
     </footer>
-
+    <script src="js/main.js"></script>
   </body>
+
+
 </html>
