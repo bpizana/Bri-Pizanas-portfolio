@@ -3,7 +3,7 @@
 }
 
 
-/* fancy css*/
+/* fancy css for js*/
 @keyframes fade-in {
     from {opacity: 0; transform: scale(.7,.7)}
     to {opacity: 1;}
@@ -14,7 +14,6 @@
 .hidden{
   opacity: 0;
 }
-
 /* end fancy css*/
 
 header {
@@ -23,6 +22,7 @@ header {
  }
 
 main {
+  padding: 0 13%;
   max-width:72%;
   margin:0 auto;
 }
@@ -166,10 +166,11 @@ p{
   width:710px;
 }
 
-.feat-textbox{
+/*.feat-textbox{
   width:50%;
   margin:0 auto;
-}
+}*/
+
 .feat-project-text > h2{
   letter-spacing: .5rem;
   margin-bottom: 10px;
@@ -216,6 +217,10 @@ p{
 .feat-bg {
   background-image: url("../images/homepage/space-featBG.png");
   margin-bottom: 150px;
+}
+
+.feat-logo{
+  opacity: 0;
 }
 
 .feat-project img{
@@ -689,8 +694,294 @@ footer > div > .social-media{
   position: relative;
     bottom: -65px;
 }
- /*@media screen and (max-width: 1024px) {
-    header.mdl-layout__header {
-      display: flex;
+
+
+ @media screen and (max-width: 768px) {
+    /* For mobile phones: */
+    body {
+      max-width: 100%;
+    }
+
+    header {
+      margin:0 6% 30px 6%;
+     }
+
+    main {
+      padding: 0 5%;
+      max-width:90%;
+      margin:0 auto;
+    }
+
+    .main{
+      width:90%;
+    }
+
+    section{
+      margin: 40px 0;
+    }
+
+    .colored section {
+      margin: 0;
+    }
+
+    .off{
+      display: none;
+    }
+
+    .margin-left{
+      margin-left: 10%;
+    }
+
+    .textbox {
+      width: 80%;
+    }
+
+    .colored {
+      background-color: #F3F4FA;
+      padding: 7% ;
+    }
+
+    .mobile-half{
+      display: inline-block;
+      text-align: center;
+      margin-bottom: 30px;
+      margin-top: 30px;
+      width:48%;
+    }
+
+    /*.mobile-right{
+      float:right;
     }*/
+
+
+    /* nav */
+    #navbar{
+      height: 45px;
+      position: fixed;
+        top:-45px;
+        z-index: 2;
+    }
+
+    /* typography */
+    h1{
+      font-size: 56px;
+    }
+
+    h2{
+      font-size:30px;
+      line-height: 40px;
+    }
+
+    h3{
+      font-size:30px ;
+      letter-spacing: .05rem;
+      margin: 10px 0;
+    }
+
+    h4{
+      font-size:25px ;
+      margin: 10px 0;
+    }
+
+    .caseStudy-text{
+
+    }
+
+    .desc{
+      font-size: 17px;
+      line-height: 25px;
+    }
+
+
+
+    /* text for homepage only */
+    .opening{
+      margin:0 5%;
+      padding:6px;
+      position:unset;
+      width:90%;
+    }
+    .slogan{
+      font-size: 30px;
+      line-height: normal;
+    }
+
+    .feat-project h2{
+      display: none;
+    }
+
+    .feat-project-text > .desc{
+      margin: 0 5% 20px 5%;
+      text-align: left;
+      width:90%;
+    }
+
+    .feat-project > .read-more{
+      margin-left: 5%
+    }
+
+    /* end homepage type styles */
+
+
+    /* */
+    .logo {
+      display: block;
+      height:132px;
+      margin: 30px auto;
+      position: unset;
+        z-index: 1;
+    }
+
+    .feat-bg {
+      background-image: url("../images/homepage/space-featBG.png");
+      height:320px;
+      margin-bottom: 50px;
+    }
+
+
+    .feat-project img{
+      width:90%;
+      position: relative;
+        top:0px;
+        left:5%;
+    }
+
+  .feat-project .feat-logo{
+      opacity: 1;
+      margin: 0 auto;
+      padding: 15% 10%;
+      width:70%;
+    }
+
+
+    /***----------------------------***/
+    /***------ About - mobile ------***/
+    /***----------------------------***/
+
+    .about-social-nav{
+      display:inline-block;
+      margin: 20px 0%;
+      width:100%;
+    }
+    .about-social-nav li {
+      display: inline-block;
+      margin:0 6%;
+    }
+
+    .reviews, .review{
+      display: none;
+    }
+
+
+
+    .roles {
+      display: block;
+      margin-left:0;
+      margin-right: 0;
+      width:100%;
+    }
+
+    .roles ul{
+      list-style: initial;
+      padding-left:20px;
+    }
+
+    .roles li{
+      padding: 6px;
+    }
+
+    .role {
+      margin: 20px 0;
+    }
+
+    .Info-heading {
+      font-size: 20px;
+    }
+
+    .sidebar{
+      display: block;
+      width:100%;
+    }
+
+    .sidebar li{
+      padding: 4px;
+    }
+
+    .darkbg{
+      margin: 0 auto;
+      padding: 30px 10%;
+      width:80%;
+    }
+
+    /***--------------------------***/
+    /***- other projects section -***/
+    /***--------------------------***/
+
+    .project{
+      width:100%;
+    }
+
+    .other-projects {
+      display:block;
+      margin-top: 10px;
+    }
+
+    .middle-project{
+      margin:30px 0;
+    }
+
+    /***--------------------------***/
+    /***------mobile Footer ------***/
+    /***--------------------------***/
+
+    footer{
+      height: 120px;
+      text-align: center;
+    }
+
+    footer > div > nav {
+      display:none;
+    }
+
+    footer i {
+      font-size: 30px;
+    }
+    /* footer call to action*/
+    footer > div > p {
+      display: block;
+      padding:0;
+      width:100%;
+    }
+
+    footer .middle-project{
+      margin:20px 0;
+    }
+    /* social media icons*/
+    footer > div > ul.social-media > li {
+      margin: 0 0px;
+      padding:0 20px;
+      position: relative;
+        left: -20px;
+    }
+
+    footer > div > .social-media{
+      float:none;
+      margin: 0 0%;
+      width:100%;
+    }
+
+    .large-footer{
+      height:750px;
+    }
+
+    .bottom{
+      position: relative;
+        bottom: -65px;
+    }
+
+
+
+
+
+
   }
