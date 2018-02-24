@@ -709,169 +709,6 @@ footer > div > .social-media{
     bottom: -65px;
 }
 
-
-
-
-
-
-.fixed{
-  text-align: center;
-  position: fixed;
-  z-index: 10;
-}
-
-.fixed a{
-  color:white;
-  font-size: 60px;
-  padding-top: 50px;
-}
-.fixed li{
-  display: block;
-  float:none;
-  margin:auto;
-}
-
-
-#menuToggle{
-  display: block;
-  float: right;
-  position: relative;
-  top: 10px;
-  right: -245px;
-    z-index: 2;
-    -webkit-user-select: none;
-    user-select: none;
-}
-
-#menuToggle input{
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-    cursor: pointer;
-    opacity: 0; /* hide this */
-    z-index: 3; /* and place it over the hamburger */
-    -webkit-touch-callout: none;
-}
-
-/*
- * Just a quick hamburger
- */
-#menuToggle span{
-  display: block;
-  width: 30px;
-  height: 2px;
-  margin-bottom: 5px;
-  position: relative;
-
-  background: #cdcdcd;
-  border-radius: 3px;
-
-  z-index: 2;
-
-  transform-origin: 25% 0% 0 ;
-
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
-}
-
-#menuToggle span:first-child
-{
-  transform-origin: 0% 0%;
-}
-
-#menuToggle span:nth-last-child(2)
-{
-  transform-origin: 0% 100%;
-}
-
-/*
- * Transform all the slices of hamburger
- * into a crossmark.
- */
-#menuToggle input:checked ~ span
-{
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
-}
-
-/*
- * But let's hide the middle one.
- */
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-/*
- * Ohyeah and the last one should go the other direction
- */
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
-  transform: rotate(-45deg) translate(0, -1px);
-}
-
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
-#menu
-{
-  position: absolute;
-  width: 400px;
-  height: 900px;
-  margin: -100px 0 0 500px;
-  padding: 50%;
-  padding-top: 125px;
-
-  background: #f07e81ed;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-
-  transform-origin: 0% 0%;
-  transform: none;
-
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}
-
-#menu li
-{
-  padding: 10px 0;
-  font-size: 22px;
-}
-
-/*
- * And let's slide it in from the left
- */
-#menuToggle input:checked ~ ul
-{
-  transform: translate(-840px, 0px);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  @media screen and (max-width: 500px) {
     /* For mobile phones: */
     body {
@@ -937,12 +774,174 @@ footer > div > .social-media{
 
 
     /* nav */
-    #navbar{
+    /*#navbar{
       height: 45px;
       position: fixed;
         top:-45px;
         z-index: 2;
+    }*/
+
+    /******************************/
+    /***** mobile - nav ***********/
+    /******************************/
+    nav .none{
+      display:block;
     }
+
+    nav{
+      padding:15px 5%;
+    }
+
+    .mark{
+      display: inline-block;
+      float:left;
+      /*margin:10px;*/
+    }
+
+    .fixed{
+      text-align: center;
+      position: fixed;
+        z-index: 10;
+    }
+
+    .fixed a{
+      color:white;
+      font-size: 60px;
+      padding-top: 50px;
+    }
+    .fixed li{
+      display: block;
+      float:none;
+      margin:auto;
+    }
+
+
+    #menuToggle{
+      display: block;
+      float: right;
+      position: relative;
+      top: 0px;
+      right: -325px;
+        z-index: 2;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+    #menuToggle input{
+      display: block;
+      width: 40px;
+      height: 32px;
+      position: absolute;
+      top: -7px;
+      left: -5px;
+        cursor: pointer;
+        opacity: 0; /* hide this */
+        z-index: 3; /* and place it over the hamburger */
+        -webkit-touch-callout: none;
+    }
+
+    /*
+     * Just a quick hamburger
+     */
+    #menuToggle span{
+      display: block;
+      width: 30px;
+      height: 2px;
+      margin-bottom: 5px;
+      position: relative;
+
+      background: #cdcdcd;
+      border-radius: 3px;
+
+      z-index: 2;
+
+      transform-origin: 25% 0% 0 ;
+
+      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                  background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                  opacity 0.55s ease;
+    }
+
+    #menuToggle span:first-child
+    {
+      transform-origin: 0% 0%;
+    }
+
+    #menuToggle span:nth-last-child(2)
+    {
+      transform-origin: 0% 100%;
+    }
+
+    /*
+     * Transform all the slices of hamburger
+     * into a crossmark.
+     */
+    #menuToggle input:checked ~ span
+    {
+      opacity: 1;
+      transform: rotate(45deg) translate(-2px, -1px);
+      background: #232323;
+    }
+
+    /*
+     * But let's hide the middle one.
+     */
+    #menuToggle input:checked ~ span:nth-last-child(3)
+    {
+      opacity: 0;
+      transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    /*
+     * Ohyeah and the last one should go the other direction
+     */
+    #menuToggle input:checked ~ span:nth-last-child(2)
+    {
+      transform: rotate(-45deg) translate(0, -1px);
+    }
+
+    /*
+     * Make this absolute positioned
+     * at the top left of the screen
+     */
+    #menu
+    {
+      position: absolute;
+      width: 400px;
+      height: 900px;
+      margin: -100px 0 0 500px;
+      padding: 50%;
+      padding-top: 125px;
+
+      background: #f07e81ed;
+      list-style-type: none;
+      -webkit-font-smoothing: antialiased;
+      /* to stop flickering of text in safari */
+
+      transform-origin: 0% 0%;
+      transform: none;
+
+      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+
+    #menu li
+    {
+      padding: 10px 0;
+      font-size: 22px;
+    }
+
+    /*
+     * And let's slide it in from the left
+     */
+    #menuToggle input:checked ~ ul
+    {
+      transform: translate(-850px, 0px);
+    }
+
+
+    /* end menu */
+
+
 
     /* spacing */
     .mobile-half{
@@ -958,7 +957,7 @@ footer > div > .social-media{
     }
 
     .padding-top {
-      margin-top: 25px;
+      margin-top: 30px;
 
     }
 
@@ -1095,6 +1094,11 @@ footer > div > .social-media{
 
     .feat-logo{
         display: block;
+    }
+
+    .feat-logo-project{
+      margin-top:100px;
+      padding-right: 10%;
     }
 
     img.feat-mobile-screen{
