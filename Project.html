@@ -14,11 +14,38 @@
   </head>
   <body>
     <nav>
-      <img src="images/main nav/logo-bri.png" alt="Bri Pizaña logo"/>
-      <ul>
-        <li><a href="index.html">My Work</a></li>
-        <li><a href="about.html">About</a></li>
+      <img class="off" src="images/main nav/logo-bri.png" alt="Bri Pizaña logo"/>
+      <img class="none" src="images/main nav/mark-bri.png" alt="Bri Pizaña logo"/>
+      <ul class="off">
+        <li class="off"><a href="index.html">My Work</a></li>
+        <li class="off"><a href="about.html">About</a></li>
       </ul>
+      <div class="fixed">
+      <div id="menuToggle">
+        <!--
+        A hidden checkbox is used as click reciever,
+        so i can use the :checked selector.
+        -->
+        <input type="checkbox" />
+
+        <!--
+        Some spans to act as a hamburger.
+
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul id="menu">
+          <li><a href="index.html">My Work</a></li>
+          <li><a href="about.html">About</a></li>
+      </div>
+    </div>
+
+
+
     </nav>
 
     <header class="main">
