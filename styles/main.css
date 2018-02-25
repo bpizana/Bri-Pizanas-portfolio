@@ -98,9 +98,6 @@ a {
 }
 
 /* header  typography*/
-
-
-
 /* general typography */
 h1 {
   font-family: PaulGrotesk-Bold;
@@ -228,7 +225,7 @@ p{
   display: none;
 }
 
-.feat-project img{
+.feat-project .screens-for-feat{
   width:875px;
   position: relative;
     top:70px;
@@ -938,9 +935,7 @@ footer > div > .social-media{
       transform: translate(-850px, 0px);
     }
 
-
     /* end menu */
-
 
 
     /* spacing */
@@ -985,7 +980,17 @@ footer > div > .social-media{
       width: 100%;*/
       margin:30px 0;
     }
+
     /* typography */
+    a.read-more{
+      display: block;
+      margin-bottom: 50px;
+    }
+
+    a.off{
+      display: none;
+    }
+
     h1{
       font-size: 56px;
     }
@@ -1004,6 +1009,10 @@ footer > div > .social-media{
     h4{
       font-size:25px ;
       margin: 10px 0;
+    }
+
+    p.desc {
+      margin-bottom:0;
     }
 
     .caseStudy-text {
@@ -1042,7 +1051,7 @@ footer > div > .social-media{
     }
 
     .feat-project-text > .desc{
-      margin: 0 5% 20px 5%;
+      margin: 0 5% ;
       text-align: left;
       width:90%;
     }
@@ -1070,7 +1079,7 @@ footer > div > .social-media{
     }
 
 
-    .feat-project img{
+    .feat-project img.screens-for-feat{
       width:90%;
       position: relative;
         top:0px;
@@ -1080,7 +1089,7 @@ footer > div > .social-media{
   .feat-project .feat-logo{
       opacity: 1;
       margin: 0 auto;
-      padding: 15% 10%;
+      padding: 10% 5%;
       width:70%;
     }
 
@@ -1102,8 +1111,11 @@ footer > div > .social-media{
     }
 
     img.feat-mobile-screen{
+      margin:0 auto;
       position: relative;
-        top:135px;
+        top:130px;
+        left:5%;
+      width:90%;
     }
 
     .section-label, .textbox {
