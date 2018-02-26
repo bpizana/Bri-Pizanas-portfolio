@@ -14,22 +14,41 @@
   </head>
   <body>
     <nav>
-      <img src="images/main nav/logo-bri.png" alt="Bri Pizaña logo"/>
-      <ul>
-        <li><a href="index.html">My Work</a></li>
-        <li><a href="about.html">About</a></li>
+      <a href="index.html">
+        <img class="none mark" src="images/common/mark.png" alt="Bri Pizaña logo"/>
+        <img class="off full-logo" src="images/main nav/logo-bri.png" alt="Bri Pizaña logo"/>
+      </a>
+      <ul class="off">
+        <li class="off"><a href="index.html">My Work</a></li>
+        <li class="off"><a href="about.html">About</a></li>
       </ul>
+      <div class="fixed none">
+      <div id="menuToggle">
+        <!--  A hidden checkbox is used as click reciever,
+        so i can use the :checked selector.  -->
+        <input type="checkbox" />
+
+        <!--  Some spans for the hamburger.  -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <ul id="menu">
+          <li><a href="index.html">My Work</a></li>
+          <li><a href="about.html">About</a></li>
+      </div>
+    </div>
     </nav>
     <header class="center top">
       <h2>Hello again! I’m Bri Pizaña.</h2>
       <p class="desc">Yes, my last name sound like pizza and lasgna as one word.</p>
       <a href="idex.html"><img src="images/about/me.png" alt="collage of me"/></a>
       <ul class="about-social-nav">
-        <li><a href="https://twitter.com/brianna_pizana" target="_blank">Twitter</a></li>
-        <li><a href="https://github.com/bpizana" target="_blank">GitHub</a></li>
         <li><a href="https://dribbble.com/Bpizana" target="_blank">Dribbble</a></li>
         <li><a href="https://www.instagram.com/b_pizana/" target="_blank">Instagram</a></li>
         <li><a href="https://www.linkedin.com/in/bpizana/" target="_blank">LinkedIn</a></li>
+        <li class="off"><a class="off" href="https://twitter.com/brianna_pizana" target="_blank">Twitter</a></li>
+        <li class="off"><a class="off" href="https://github.com/bpizana" target="_blank">GitHub</a></li>
       </ul>
     </header>
     <main>
@@ -46,7 +65,7 @@
           <div class="role">
             <p class="Info-heading">Freelance Design</p>
             <p class="label">July 2017 - Present  | Luckless Digital &amp; Design Imports</p>
-            <ul class="caseStudy-text">
+            <ul class="caseStudy-text off">
               <li>Rebranding, Design new, on-brand visual elements  focusing on messaging and brand.</li>
               <li>Remotely meet with client to determine design vision, scopes of work, and budgets and deliverable timeframes.</li>
               <li>Took and manipulated images for use on website to promote company offerings online.</li>
@@ -55,7 +74,7 @@
           <div class="role">
             <p class="Info-heading">Product Designer</p>
             <p class="label">Design Imports  | August 2016 - July 2017 </p>
-            <ul class="caseStudy-text">
+            <ul class="caseStudy-text off">
               <li>Design four-color and spot color products, rescaled and crop images using Photoshop, and compile client data into need formats for vendors.</li>
               <li>Develop and design products for stores like Wegmans, Nordstrom Rack, Bed Bath &amp; Beyond, Spirit Halloween, and Cracker Barrel.</li>
               <li>Designed presentations of products for sales department</li>
@@ -65,7 +84,7 @@
           <div class="role">
             <p class="Info-heading">Designer</p>
             <p class="label">Seattle Gay News  |  Feb. 2016 - July 2016</p>
-            <ul class="caseStudy-text">
+            <ul class="caseStudy-text off">
               <li>Designed reader experience by developing layouts that create a more natural experience.</li>
               <li>Prepared and sent final newspaper layout to printer.</li>
               <li>Created layout templates cutting design time by 50%.</li>
@@ -73,7 +92,7 @@
           </div>
         </section>
         <section class="sidebar align-top">
-          <div>
+          <div class="mobile-half">
             <h3>Skills</h3>
             <ul class="caseStudy-text">
               <li>User Testing</li>
@@ -87,7 +106,7 @@
               <li>Visual Design</li>
             </ul>
           </div>
-          <div>
+          <div class="mobile-half" >
             <h3>Tools</h3>
             <ul class="caseStudy-text">
               <li>Illustrator</li>
@@ -153,18 +172,18 @@
 
         <ul class="social-media">
           <li>
+            <a href="https://github.com/bpizana" target="_blank">
+              <i class="off" class="fab fa-github-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/brianna_pizana" target="_blank">
+              <i class="off" class="fab fa-twitter-square"></i>
+            </a>
+          </li>
+          <li>
             <a href="https://www.linkedin.com/in/bpizana/" target="_blank">
               <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://github.com/bpizana" target="_blank">
-              <i class="fab fa-github-square"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/brianna.pizana" target="_blank">
-              <i class="fab fa-facebook-square"></i>
             </a>
           </li>
           <li>
@@ -173,20 +192,21 @@
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/brianna_pizana" target="_blank">
-              <i class="fab fa-twitter-square"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://dribbble.com/Bpizana" target="_blank">
-              <i class="fab fa-dribbble-square"></i>
-            </a>
-          </li>
-          <li>
             <a href="mailto:bripiz@gmail.com" target="_blank">
               <i class="far fa-envelope"></i>
             </a>
           </li>
+          <li>
+            <a href="https://dribbble.com/Bpizana" target="_blank">
+              <i class="off" class="fab fa-dribbble-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/brianna.pizana" target="_blank">
+              <i class="off"  class="fab fa-facebook-square"></i>
+            </a>
+          </li>
+
         </ul>
       </div>
     </footer>

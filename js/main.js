@@ -1,13 +1,13 @@
-// // When the user scrolls down 20px from the top of the document, slide down the navbar
-// window.onscroll = function() {scrollFunction()};
-//
-// function scrollFunction() {
-//     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//         document.getElementById("navbar").style.top = "0";
-//     } else {
-//         document.getElementById("navbar").style.top = "-50px";
-//     }
-// }
+// When the user scrolls down 25px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) {
+        document.getElementById("navbar").style.top = "10px";
+    } else {
+        document.getElementById("navbar").style.top = "-45px";
+    }
+}
 
 var animateHTML = function () {
   var screens,
@@ -23,7 +23,7 @@ var animateHTML = function () {
   var _addEventHandlers = function () {
     // on scroll check the scoll position
     window.addEventListener('scroll', _checkPosition);
-    // when the elemnt has been resized run init 
+    // when the elemnt has been resized run init
     window.addEventListener('resize', init);
   };
   var _checkPosition = function () {
@@ -44,3 +44,27 @@ var animateHTML = function () {
   }
 }
 animateHTML().init()
+
+
+
+// Image slideshow
+
+
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+    showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mobile-screen");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length} ;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    x[slideIndex-1].style.display = "block";
+}
