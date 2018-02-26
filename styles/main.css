@@ -27,7 +27,7 @@
     margin:0 auto;
   }
 
-  img {
+  img, video{
     max-width: 100%;
   }
 
