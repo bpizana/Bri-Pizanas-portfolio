@@ -3,424 +3,744 @@
 }
 
 
-/* fancy css for js*/
+  /* fancy css for js*/
 @keyframes fade-in {
-    from {opacity: 0; transform: scale(.7,.7)}
-    to {opacity: 1;}
-}
-.fade-in-element {
-  animation: fade-in 1.4s;
-}
-.hidden{
-  opacity: 0;
-}
-/* end fancy css*/
+      from {opacity: 0; transform: scale(.7,.7)}
+      to {opacity: 1;}
+  }
+  .fade-in-element {
+    animation: fade-in 1.4s;
+  }
+  .hidden{
+    opacity: 0;
+  }
+  /* end fancy css*/
 
-header {
-  /*height: 555px;*/
-  margin:0 6% 100px 6%;
- }
+  header {
+    /*height: 555px;*/
+    margin:0 6% 100px 6%;
+   }
 
-main {
-  padding: 0 13%;
-  max-width:72%;
-  margin:0 auto;
-}
-
-img {
-  max-width: 100%;
-}
-
-/* navigation */
-#logo{
-  display:none;
-}
-
-nav{
-  padding:15px 95px;
-}
-
-nav ul {
-  float:right;
-}
-
-nav li {
-    float: left;
-}
-
-nav a {
-    display: block;
-    padding: 8px;
-}
-
-section{
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-
-.main{
-  width:72%;
-  margin:0 auto;
-}
-
-
-.none{
-  display: none;
-
-}
-/***--------------------***/
-/***------- Icons ------***/
-/***--------------------***/
-
-.fas.fa-caret-right{
-  color:#F07E81;
-  padding:10px 5px 0px 5px;
-  width:15px;
-}
-
-/***---------------------------***/
-/****------- typography ------****/
-/***---------------------------***/
-
-/* link typography */
-a {
-  color:#F07E81;
-  font-family: PaulGroteskSoft-Light;
-  font-size: 20px;
-  text-decoration: none;
-}
-  a:hover{
-    color:#F0CF7E;
+  main {
+    padding: 0 13%;
+    max-width:72%;
+    margin:0 auto;
   }
 
-.read-more:hover i{
-  color:#F0CF7E;
-}
-
-/* header  typography*/
-/* general typography */
-h1 {
-  font-family: PaulGrotesk-Bold;
-  font-size:80px ;
-}
-
-h2{
-  font-family: PaulGrotesk-Bold;
-  font-size:45px ;
-}
-
-h3{
-  font-family: PaulGroteskSoft-Bold;
-  font-size:45px ;
-  letter-spacing: .2rem;
-  margin: 30px 0;
-}
-
-h4{
-  font-family: PaulGroteskSoft-Bold;
-  font-size:35px ;
-  margin: 30px 0;
-}
-
-p{
-  margin-bottom: 15px;
-}
-
-/* common text-styles typography*/
-.caseStudy-text {
-  font-family: PaulGrotesk-regular;
-  font-size: 18px;
-  letter-spacing: .05rem;
-  line-height: 25px;
-}
-
-.desc{
-  font-family: PaulGrotesk-Light;
-  font-size: 22px;
-  letter-spacing: .07rem;
-  line-height: 29px;
-}
-
-.label {
-  color: #9BA0B3;
-  font-family: PaulGrotesk-SemiBold;
-  font-size: 1rem;
-  letter-spacing: .1rem;
-  margin-top: 7px;
-}
-
-.uppercase{
-  text-transform: uppercase;
-}
-
-
-/***------------------------------------***/
-/***--------- Homepage specific --------***/
-/***------------------------------------***/
-
-/* typography */
-
-.opening{
-  margin-left: 220px;
-  padding:6px;
-  position: relative;
-    top: -80px;
-  width:710px;
-}
-
-/*.feat-textbox{
-  width:50%;
-  margin:0 auto;
-}*/
-
-.feat-project-text > h2{
-  letter-spacing: .5rem;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.feat-project-text > .label{
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.feat-project-text > .desc{
-  margin: 0 25% 20px 25%;
-  text-align: justify;
-  width:50%;
-}
-
-.feat-project > .read-more{
-  color:#F07E81;
-  margin-left: 25%
-}
-  .feat-project > .read-more:hover{
-    color:#F0CF7E;
+  img {
+    max-width: 100%;
   }
 
-.slogan {
-  font-family: PaulGrotesk-UltraLight;
-  font-size: 44px;
-  letter-spacing: .2rem;
-  line-height: 50px;
-}
-
-/* Images and backgrounds and logo */
-.logo {
-  display: inline;
-  height:132px;
-  margin-left: 113px;
-  margin-top: 130px;
-  position: relative;
-    top: 15px;
-    z-index: 1;
-}
-
-.feat-bg {
-  background-image: url("../images/homepage/space-featBG.png");
-  margin-bottom: 150px;
-}
-
-.feat-logo{
-  display: none;
-}
-
-.feat-project .screens-for-feat{
-  width:875px;
-  position: relative;
-    top:70px;
-    left:15%;
-}
-
-
-/***-----------------------------------------------------------***/
-/***--------- casestudy specific  - ordered by section --------***/
-/***-----------------------------------------------------------***/
-
-/* common */
-
-.align-top{
-  vertical-align: top;
-}
-
-.colored {
-  background-color: #F3F4FA;
-  padding: 30px 60px 60px 60px;
-}
-
-/* grid */
-
-.half{
-  display: inline-block;
-  width:49%;
-}
-
-.section-label {
-  display:inline-flex;
-  float: left;
-  width:16%;
-}
-
-.textbox{
-  display: inline-block;
-  width:58%;
-  /*margin-left: 16%;*/
-}
-
-/* spacing */
-
-.margin-left {
-  margin-left: 16%;
-}
-
-.padding-top {
-  margin-top: 50px;
-}
-
-.top-bottom {
-  margin:50px 0;
-}
-
-
-/* lines */
-.line {
-background: #9BA0B3  no-repeat scroll center;
-height:1px;
-margin: 0  0 50px 0;
-width:100%;
-}
-
-.vertical-line {
-  background: #9BA0B3  no-repeat scroll center;
-  height:100px;
-  float: left;
-  margin: 15px 20px 20px 50px;
-  width:1px;
-}
-
-.sm-vertical-line {
-  background: #9BA0B3  no-repeat scroll center;
-  height:75px;
-  float: left;
-  margin: 15px 20px 0px 50px;
-  width:1px;
-}
-
-.vertical-line-lg {
-  background: #9BA0B3  no-repeat scroll center;
-  height:235px;
-  float: left;
-  margin: 0px 20px 0px 50px;
-  width:1px;
-}
-
-
-
-.quote{
-  color: #9BA0B3;
-  font-family: PaulGrotesk-SemiBold;
-  font-size: 1rem;
-  letter-spacing: .05rem;
-  line-height: 25px;
-  margin: 30px 0;
-}
-
-/* header */
-.center{
-text-align: center;
-}
-
-.light{
-  font-family: paulGrotesk-Light;
-  padding-top:10px;
-}
-
-
-/* challenges insights and solutions */
-.num-list {
-  font-family: PaulGrotesk-SemiBold;
-  letter-spacing: .04rem;
-  line-height: 25px;
-}
-
-/* Role deliverables and tools */
-.third {
-  display: inline-block;
-  vertical-align: top;
-  width: 25%;
-  margin:20px;
-}
-
-
-.med-text {
-  font-family: PaulGrotesk-Medium;
-  line-height: 25px;
-}
-
-
-/* assumptions */
-
-/* user research */
-.percent-desc {
-  font-family: PaulGrotesk-SemiBold;
-  font-size: 16px;
-  letter-spacing: .05rem;
-  line-height: 20px;
-  text-align: left;
-  width: 80%;
-}
-
-/* persona */
-.persona-l{
-  padding: 0 25px 0 23%;
-}
-
-.persona-r{
-  padding: 0 23% 0 25px;
-}
-
-/* compentive analysis */
-
-/* user flows and user stories */
-
-/* branding */
-.branding {
-  letter-spacing: .05em;
-  margin-bottom: 50px;
-}
-/* color pallete */
-
-/* text */
-
-/* low fedelity wireframes */
-
-/* A AND B TESTING  */
-.ab-desk-img {
-width:95%;
-}
-
-/* user testing video */
-
-/* final product */
-.quarter {
-  display: inline-block;
-  width:25%;
-}
-.screens {
-  background-image: url("../images/space/final-mbg.png");
-  display: inline-block;
-  height:2500px;
-  padding:100px;
-}
-  /* mobile */
-
-  .mobile{
-    width:100%;
-  }
-
-  .slider{
+  /* navigation */
+  #logo{
     display:none;
+  }
 
+  nav{
+    padding:15px 95px;
+  }
+
+  nav ul {
+    float:right;
+  }
+
+  nav li {
+      float: left;
+  }
+
+  nav a {
+    display:inline-block;
+    padding: 8px;
+
+  }
+
+  nav > ul > li > a {
+    padding-top: 15px;
+  }
+
+  section{
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+
+  .main{
+    width:72%;
+    margin:0 auto;
+  }
+
+
+  .none{
+    display: none;
+
+  }
+  /***--------------------***/
+  /***------- Icons ------***/
+  /***--------------------***/
+
+  .fas.fa-caret-right{
+    color:#F07E81;
+    padding:10px 5px 0px 5px;
+    width:15px;
+  }
+
+  /***---------------------------***/
+  /****------- typography ------****/
+  /***---------------------------***/
+
+  /* link typography */
+  a {
+    color:#F07E81;
+    font-family: PaulGroteskSoft-Light;
+    font-size: 20px;
+    text-decoration: none;
+  }
+    a:hover{
+      color:#F0CF7E;
+    }
+
+  .read-more:hover i{
+    color:#F0CF7E;
+  }
+
+  /* header  typography*/
+  /* general typography */
+  h1 {
+    font-family: PaulGrotesk-Bold;
+    font-size:80px ;
+  }
+
+  h2{
+    font-family: PaulGrotesk-Bold;
+    font-size:45px ;
+  }
+
+  h3{
+    font-family: PaulGroteskSoft-Bold;
+    font-size:45px ;
+    letter-spacing: .2rem;
+    margin: 30px 0;
+  }
+
+  h4{
+    font-family: PaulGroteskSoft-Bold;
+    font-size:35px ;
+    margin: 30px 0;
+  }
+
+  p{
+    margin-bottom: 15px;
+  }
+
+  /* common text-styles typography*/
+  .caseStudy-text {
+    font-family: PaulGrotesk-regular;
+    font-size: 18px;
+    letter-spacing: .05rem;
+    line-height: 25px;
+  }
+
+  .desc{
+    font-family: PaulGrotesk-Light;
+    font-size: 22px;
+    letter-spacing: .07rem;
+    line-height: 29px;
+  }
+
+  .label {
+    color: #9BA0B3;
+    font-family: PaulGrotesk-SemiBold;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    margin-top: 7px;
+  }
+
+  .uppercase{
+    text-transform: uppercase;
+  }
+
+
+  /***------------------------------------***/
+  /***--------- Homepage specific --------***/
+  /***------------------------------------***/
+
+  /* typography */
+
+  .opening{
+    margin-left: 220px;
+    padding:6px;
+    position: relative;
+      top: -80px;
+    width:710px;
+  }
+
+
+  .feat-project-text > h2{
+    letter-spacing: .5rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .feat-project-text > .label{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .feat-project-text > .desc{
+    margin: 0 25% 20px 25%;
+    text-align: justify;
+    width:50%;
+  }
+
+  .feat-project > .read-more{
+    color:#F07E81;
+    margin-left: 25%
+  }
+    .feat-project > .read-more:hover{
+      color:#F0CF7E;
+    }
+
+  .slogan {
+    font-family: PaulGrotesk-UltraLight;
+    font-size: 44px;
+    letter-spacing: .2rem;
+    line-height: 50px;
+  }
+
+  /* Images and backgrounds and logo */
+  .logo {
+    display: inline;
+    height:132px;
+    margin-left: 113px;
+    margin-top: 130px;
+    position: relative;
+      top: 15px;
+      z-index: 1;
+  }
+
+  .feat-bg {
+    background-image: url("../images/homepage/space-featBG.png");
+    margin-bottom: 150px;
+  }
+
+  .feat-logo{
+    display: none;
+  }
+
+  .feat-project .screens-for-feat, img.feat-mobile-screen{
+    width:875px;
+    position: relative;
+      top:70px;
+      left:15%;
+  }
+
+
+
+  /***-----------------------------------------------------------***/
+  /***--------- casestudy specific  - ordered by section --------***/
+  /***-----------------------------------------------------------***/
+
+  /* common */
+
+  .align-top{
+    vertical-align: top;
+  }
+
+  .colored {
+    background-color: #F3F4FA;
+    padding: 30px 60px 60px 60px;
+  }
+
+  /* grid */
+
+  .half{
+    display: inline-block;
+    width:49%;
+  }
+
+  .section-label {
+    display:inline-flex;
+    float: left;
+    width:16%;
+  }
+
+  .textbox{
+    display: inline-block;
+    width:58%;
+    /*margin-left: 16%;*/
+  }
+
+  /* spacing */
+
+  .margin-left {
+    margin-left: 16%;
+  }
+
+  .padding-top {
+    margin-top: 50px;
+  }
+
+  .top-bottom {
+    margin:50px 0;
+  }
+
+
+  /* lines */
+  .line {
+  background: #9BA0B3  no-repeat scroll center;
+  height:1px;
+  margin: 0  0 50px 0;
+  width:100%;
+  }
+
+  .vertical-line {
+    background: #9BA0B3  no-repeat scroll center;
+    height:100px;
+    float: left;
+    margin: 15px 20px 20px 50px;
+    width:1px;
+  }
+
+  .sm-vertical-line {
+    background: #9BA0B3  no-repeat scroll center;
+    height:75px;
+    float: left;
+    margin: 15px 20px 0px 50px;
+    width:1px;
+  }
+
+  .vertical-line-lg {
+    background: #9BA0B3  no-repeat scroll center;
+    height:235px;
+    float: left;
+    margin: 0px 20px 0px 50px;
+    width:1px;
+  }
+
+
+
+  .quote{
+    color: #9BA0B3;
+    font-family: PaulGrotesk-SemiBold;
+    font-size: 1rem;
+    letter-spacing: .05rem;
+    line-height: 25px;
+    margin: 30px 0;
+  }
+
+  /* header */
+  .center{
+  text-align: center;
+  }
+
+  .light{
+    font-family: paulGrotesk-Light;
+    padding-top:10px;
+  }
+
+
+  /* challenges insights and solutions */
+  .num-list {
+    font-family: PaulGrotesk-SemiBold;
+    letter-spacing: .04rem;
+    line-height: 25px;
+  }
+
+  /* Role deliverables and tools */
+  .third {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin:20px;
+  }
+
+
+  .med-text {
+    font-family: PaulGrotesk-Medium;
+    line-height: 25px;
+  }
+
+
+  /* assumptions */
+
+  /* user research */
+  .percent-desc {
+    font-family: PaulGrotesk-SemiBold;
+    font-size: 16px;
+    letter-spacing: .05rem;
+    line-height: 20px;
+    text-align: left;
+    width: 80%;
+  }
+
+  /* persona */
+  .persona-l{
+    padding: 0 25px 0 23%;
+  }
+
+  .persona-r{
+    padding: 0 23% 0 25px;
+  }
+
+  /* compentive analysis */
+
+  /* user flows and user stories */
+
+  /* branding */
+  .branding {
+    letter-spacing: .05em;
+    margin-bottom: 50px;
+  }
+  /* color pallete */
+
+  /* text */
+
+  /* low fedelity wireframes */
+
+  /* A AND B TESTING  */
+  .ab-desk-img {
+  width:95%;
+  }
+
+  /* user testing video */
+
+  /* final product */
+  .quarter {
+    display: inline-block;
+    width:25%;
+  }
+  .screens {
+    background-image: url("../images/space/final-mbg.png");
+    display: inline-block;
+    height:2500px;
+    padding:100px;
+  }
+    /* mobile */
+
+    .mobile{
+      width:100%;
+    }
+
+    .slider{
+      display:none;
+
+    }
+
+    .row-1 {
+      position: relative;
+        top:-100px;
+    }
+
+    .row-2{
+      position: relative;
+        top:0;
+    }
+
+    .row-3{
+      position: relative;
+        top:200px;
+    }
+
+    .row-4{
+      position: relative;
+        top:-500px;
+        left:76%;
+    }
+
+    .smaller {
+      max-width: 100%;
+      /*width:25%;*/
+    }
+
+    /*desktop*/
+    .col-1-desktop {
+      width:49%;
+      float:left;
+    }
+
+    .col-2-desktop {
+      float:right;
+      width:49%;
+      position: relative;
+        top:100px;
+    }
+
+  /*product features*/
+
+
+
+  .left {
+    float: left;
+  }
+
+  .right{
+    float: right;
+  }
+
+  .prod-feat{
+  margin: 100px 0;
+  }
+
+  .top{
+    padding-top: 100px;
+  }
+
+  .feat-2 {
+    position: relative;
+    top:-250px;
+  }
+
+
+  /* prototypes */
+  .prototypes{
+    display: inline;
+    width:100%;
+    height:300px;
+  }
+
+  .half > a {
+    margin: 0 auto;
+  }
+
+  /* conclusion */
+  .large-textbox {
+    margin: 0 20%;
+    width:60%;
+  }
+
+  .subhead {
+    color:#F0A377;
+    font-family: PaulGrotesk-Bold;
+    letter-spacing: .09rem;
+    margin-top: 25px;
+    text-transform: uppercase;
+
+  }
+
+
+  /***--------------------------***/
+  /***---------- About ---------***/
+  /***--------------------------***/
+
+  .about-social-nav{
+    display:inline-block;
+    margin: 20px 0%;
+    width:80%;
+  }
+  .about-social-nav li {
+    display: inline-block;
+    margin:0 6%;
+  }
+
+  .about-social-nav a {
+    color: #3F3B50;
+  }
+    .about-social-nav a:hover {
+      color:#F07E81;
+    }
+
+  .reviews{
+    margin: 50px 10%;
+    width:80%;
+  }
+  .review{
+    height:275px;
+    margin-bottom: 50px;
+    width:36%;
+  }
+
+  .roles {
+    display: inline-block;
+    margin-left:5%;
+    margin-right: 20%;
+    width:45%;
+  }
+
+  .roles ul{
+    list-style: initial;
+    padding-left:20px;
+  }
+
+  .roles li{
+    padding: 6px;
+  }
+
+  .role {
+    margin: 60px 0;
+  }
+
+  .Info-heading {
+    font-family: paulGrotesk-SemiBold;
+    font-size: 20px;
+  }
+
+  .sidebar{
+    display: inline-block;
+    width:25%;
+  }
+
+  .sidebar li{
+    padding: 4px;
+  }
+
+  .darkbg{
+    background-color:#3F3B50 /*rgba(240,126,129,.50)*/;
+    margin: 0 auto;
+    padding: 50px 100px 100px 100px;
+    width:64%;
+  }
+
+  .darkbg p, .darkbg h4{
+    color:#F3F4FA;
+  }
+
+  /***--------------------------***/
+  /***- other projects section -***/
+  /***--------------------------***/
+
+  .project{
+    width:30%;
+  }
+
+  .other-projects {
+    display:flex;
+    margin-top: 30px;
+  }
+
+  .middle-project{
+    margin:0 33px;
+  }
+
+  .project .project-name {
+    font-family: PaulGrotesk-Bold;
+    font-size: 20px;
+    letter-spacing: .1rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  .project .desc{
+    font-size: 18px;
+  }
+
+
+  /***--------------------***/
+  /***------ Footer ------***/
+  /***--------------------***/
+
+  footer{
+    background-color: #3F3B50;
+    display: block;
+    height: 60px;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  footer > div > nav {
+    display: inline-block;
+    float:left;
+    padding-left: 0;
+    width:25%;
+  }
+
+  footer nav ul {
+    float:none;
+  }
+
+  footer nav a {
+    color: #9BA0B3;
+    font-family: PaulGrotesk-SemiBold;
+    font-size: 18px;
+  }
+    footer nav a:hover {
+      color:#F07E81;
+    }
+
+    footer h3{
+      color:#F07E81;
+      margin-top:30px ;
+    }
+
+  footer p{
+    color:#F3F4FA;
+  }
+
+  footer p.desc {
+    font-family: PaulGrotesk-regular;
+    line-height: 25px;
+    letter-spacing: .1rem;
+  }
+
+  /* footer call to action*/
+  footer > div > p {
+    color: #F07E81;
+    display: inline-block;
+    font-family: PaulGrotesk-Regular;
+    letter-spacing: .1rem;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    width:29%;
+  }
+
+  /* social media icons*/
+  footer a i{
+    color: #9BA0B3;
+  }
+    footer a i:hover{
+      color: #F07E81;
+    }
+
+  footer > div > ul.social-media > li {
+    margin: 5px 10px;
+  }
+
+  footer > div > .social-media{
+    display: inline-flex;
+    float:right;
+    margin-top: 15px;
+    width:25%;
+  }
+
+  .large-footer{
+    height:750px;
+  }
+
+  .bottom{
+    position: relative;
+      bottom: -65px;
+  }
+
+
+
+@media screen and (max-width: 1535px) {
+
+  .margin-left {
+    margin-left: 15%;
+  }
+  .textbox {
+    display: inline-block;
+    width: 65%;
+  }
+
+  .feat-project .screens-for-feat, img.feat-mobile-screen {
+    width: 80%;
+    position: relative;
+    top: 55px;
+    left: 10%;
+  }
+
+  .feat-project-text > .desc {
+      width: 70%;
+      margin: 0 15% 20px;
+  }
+
+  .feat-project > .read-more {
+    margin-left: 15%;
+  }
+
+  .desc {
+    line-height: 25px;
   }
 
   .row-1 {
@@ -435,285 +755,169 @@ width:95%;
 
   .row-3{
     position: relative;
-      top:200px;
-  }
-
-  .row-4{
-    position: relative;
-      top:-500px;
-      left:770px;
-  }
-
-  .smaller {
-    max-width: 100%;
-    /*width:25%;*/
-  }
-
-  /*desktop*/
-  .col-1-desktop {
-    width:49%;
-    float:left;
-  }
-
-  .col-2-desktop {
-    float:right;
-    width:49%;
-    position: relative;
       top:100px;
   }
 
-/*product features*/
-
-
-
-.left {
-  float: left;
-}
-
-.right{
-  float: right;
-}
-
-.prod-feat{
-margin: 100px 0;
-}
-
-.top{
-  padding-top: 100px;
-}
-
-.feat-2 {
-  position: relative;
-  top:-250px;
-}
-
-
-/* prototypes */
-.prototypes{
-  display: inline;
-  width:100%;
-  height:300px;
-}
-
-.half > a {
-  margin: 0 auto;
-}
-
-/* conclusion */
-.large-textbox {
-  margin: 0 20%;
-  width:60%;
-}
-
-.subhead {
-  color:#F0A377;
-  font-family: PaulGrotesk-Bold;
-  letter-spacing: .09rem;
-  margin-top: 25px;
-  text-transform: uppercase;
-
-}
-
-
-/***--------------------------***/
-/***---------- About ---------***/
-/***--------------------------***/
-
-.about-social-nav{
-  display:inline-block;
-  margin: 20px 0%;
-  width:80%;
-}
-.about-social-nav li {
-  display: inline-block;
-  margin:0 6%;
-}
-
-.about-social-nav a {
-  color: #3F3B50;
-}
-  .about-social-nav a:hover {
-    color:#F07E81;
+  .row-4 {
+    position: relative;
+    top: -450px;
   }
 
-.reviews{
-  margin: 50px 10%;
-  width:80%;
-}
-.review{
-  height:275px;
-  margin-bottom: 50px;
-  width:36%;
-}
 
-.roles {
-  display: inline-block;
-  margin-left:5%;
-  margin-right: 20%;
-  width:45%;
-}
-
-.roles ul{
-  list-style: initial;
-  padding-left:20px;
-}
-
-.roles li{
-  padding: 6px;
-}
-
-.role {
-  margin: 60px 0;
-}
-
-.Info-heading {
-  font-family: paulGrotesk-SemiBold;
-  font-size: 20px;
-}
-
-.sidebar{
-  display: inline-block;
-  width:25%;
-}
-
-.sidebar li{
-  padding: 4px;
-}
-
-.darkbg{
-  background-color:#3F3B50 /*rgba(240,126,129,.50)*/;
-  margin: 0 auto;
-  padding: 50px 100px 100px 100px;
-  width:64%;
-}
-
-.darkbg p, .darkbg h4{
-  color:#F3F4FA;
-}
-
-/***--------------------------***/
-/***- other projects section -***/
-/***--------------------------***/
-
-.project{
-  width:30%;
-}
-
-.other-projects {
-  display:flex;
-  margin-top: 30px;
-}
-
-.middle-project{
-  margin:0 33px;
-}
-
-.project .project-name {
-  font-family: PaulGrotesk-Bold;
-  font-size: 20px;
-  letter-spacing: .1rem;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-}
-
-.project .desc{
-  font-size: 18px;
-}
-
-
-/***--------------------***/
-/***------ Footer ------***/
-/***--------------------***/
-
-footer{
-  background-color: #3F3B50;
-  display: block;
-  height: 60px;
-  overflow: hidden;
-  width: 100%;
-}
-
-footer > div > nav {
-  display: inline-block;
-  float:left;
-  padding-left: 0;
-  width:25%;
-}
-
-footer nav a {
-  color: #9BA0B3;
-  font-family: PaulGrotesk-SemiBold;
-  font-size: 18px;
-  margin-right: 70px;
-}
-  footer nav a:hover {
-    color:#F07E81;
+  .darkbg {
+    margin: 0 auto;
+    width: 71%
+  }
+  .reviews {
+    margin: 0 auto;
+    width: 90%;
+  }
   }
 
-  footer h3{
-    color:#F07E81;
-    margin-top:30px ;
+@media screen and (max-width: 1385px) {
+
+  .colored {
+    background-color: #F3F4FA;
+    padding: 20px 30px 30px 30px;
   }
 
-footer p{
-  color:#F3F4FA;
-}
-
-footer p.desc {
-  font-family: PaulGrotesk-regular;
-  line-height: 25px;
-  letter-spacing: .1rem;
-}
-
-/* footer call to action*/
-footer > div > p {
-  color: #F07E81;
-  display: inline-block;
-  font-family: PaulGrotesk-Regular;
-  letter-spacing: .1rem;
-  margin: 0 auto;
-  padding-top: 20px;
-  text-align: center;
-  width:29%;
-}
-
-/* social media icons*/
-footer a i{
-  color: #9BA0B3;
-}
-  footer a i:hover{
-    color: #F07E81;
+  section {
+      margin-top: 50px;
+      margin-bottom: 50px;
   }
 
-footer > div > ul.social-media > li {
-  margin: 5px 10px;
-}
+  .screens{
+    height: 1900px;
+    padding:50px;
+  }
+  .mobile{
+    height:900px;
+  }
 
-footer > div > .social-media{
-  display: inline-flex;
-  float:right;
-  margin-top: 15px;
-  width:25%;
-}
+  .large-footer {
+    height: 660px;
+  }
 
-.large-footer{
-  height:750px;
-}
+  .feat-2 {
+    position: relative;
+    top: 90px;
+  }
 
-.bottom{
-  position: relative;
-    bottom: -65px;
-}
+  .prod-feat{
+    margin:60px 0;
+  }
 
- @media screen and (max-width: 500px) {
-    /* For mobile phones: */
-    body {
-      max-width: 100%;
-    }
+  .review {
+    height: 305px;
+    margin-bottom: 50px;
+    width: 41%;
+  }
 
+  }
+
+@media screen and (max-width: 1080px) {
+
+  header {
+      margin: 0 6% 10px 6%;
+  }
+
+  main{
+    max-width: 90%;
+    padding: 0 10%;
+  }
+
+  .about-social-nav{
+    width:100%;
+  }
+
+  .section-label {
+    width: 12%;
+  }
+
+  .margin-left{
+    margin-left:12%;
+  }
+
+
+ .logo {
+    margin-left: 40px;
+    margin-top: 80px;
+  }
+
+  .opening {
+    margin-left: 17%;
+    padding: 0px;
+    width: 60%;
+  }
+
+  .desc{
+    letter-spacing: .05rem;
+  }
+
+  .project .desc{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .feat-project-text > .desc {
+    width: 80%;
+    margin: 0 10% 20px;
+  }
+
+  .feat-project > .read-more {
+      margin-left: 10%;
+  }
+
+  .persona-l{
+    padding:0 25px 0 5%;
+  }
+
+  .persona-r{
+    padding:0 5% 0 25px;
+  }
+
+  .sm-vertical-line{
+    margin: 15px 20px 0 0;
+    height:75px;
+  }
+
+  .textbox {
+    width:80%;
+  }
+
+  .darkbg{
+    width:76%;
+  }
+  .reviews{
+    width:100%;
+  }
+
+  .feat-2 {
+    position: relative;
+    top: -90px;
+  }
+
+  .prod-feat .right{
+    float:none;
+  }
+
+  footer .main{
+    width:95%;
+    margin: 0 7%;
+  }
+
+  footer.large-footer>.main{
+    width:90%;
+  }
+
+  }
+/**********************************/
+/******* tablet view **************/
+/**********************************/
+
+@media screen and (max-width: 950px) {
     header {
-      margin:0 6% 30px 6%;
+      margin:0 10% 50px 10%;
      }
 
     main {
@@ -727,17 +931,403 @@ footer > div > .social-media{
     }
 
     section{
-      margin: 40px 0;
+      margin: 50px 0;
     }
 
     .colored {
-      background-color: #F3F4FA;
       padding: 7% ;
     }
 
     .colored section {
       margin: 0;
     }
+
+    .margin-left{
+      margin-left: 10%;
+    }
+
+    .textbox {
+      width: 80%;
+      padding-top: 20px;
+    }
+
+    .middle-project{
+      margin:0 15px;
+    }
+
+    .project{
+      width:32%;
+    }
+
+    /******************************/
+    /***** tab - nav ***********/
+    /******************************/
+
+  nav{
+    padding:15px 5%;
+  }
+
+  nav a {
+    display:inline-block;
+  }
+
+  nav>ul>li>a{
+    font-size: 17px;
+    padding-top: 15px;
+  }
+
+  .full-logo{
+    width:120px;
+  }
+
+    /* typography */
+    h1{
+      font-size: 80px;
+    }
+
+    h2{
+      font-size:30px;
+      line-height: 40px;
+    }
+
+    h3{
+      font-size:30px ;
+      letter-spacing: .01rem;
+      margin: 30px 0 10px 0;
+      padding-bottom: 10px;
+
+    }
+
+    h4{
+      font-size:25px ;
+      margin: 10px 0;
+    }
+
+    p.desc {
+      margin-bottom:0;
+    }
+
+    .caseStudy-text {
+      font-size: 16px;
+      letter-spacing: .05rem;
+      line-height: 21px;
+    }
+
+    .desc{
+      font-size: 17px;
+      line-height: 25px;
+    }
+
+    .label {
+      font-size: 15px;
+      letter-spacing: .1rem;
+      margin: 15px 0;
+    }
+
+    /* text for homepage only */
+    .opening{
+      margin:0 15%;
+      padding:6px;
+      position:unset;
+      width:70%;
+    }
+    .slogan{
+      font-size: 30px;
+      line-height: normal;
+    }
+
+    .feat-project-text > .desc{
+      margin: 0 17% ;
+      text-align: left;
+      width:70%;
+    }
+
+    .feat-project > .read-more{
+      margin-left: 17%
+    }
+
+
+     .logo {
+        margin-left:35%;
+        margin-bottom: 20px;
+      }
+
+
+    /* end homepage type styles */
+
+    .feat-bg {
+      height:390px;
+      margin-bottom: 70px;
+    }
+
+    .feat-project img.screens-for-feat{
+      width:80%;
+      position: relative;
+        top:40px;
+        left:10%;
+    }
+
+    /***---------------------------------***/
+    /***------ case study - tablet ------***/
+    /***---------------------------------***/
+
+
+    .feat-logo-project{
+      margin-top:80px;
+    }
+
+    img.feat-mobile-screen{
+      margin:0 auto;
+      position: relative;
+        top:60px;
+        left:10%;
+      width:80%;
+    }
+
+    .section-label, .textbox {
+      display:block;
+      float: none;
+      width:70%;
+      margin: 0 auto;
+    }
+
+    /* lines -tablet */
+    .line {
+    display: none;
+    }
+
+    .vertical-line {
+      height:100px;
+      margin: 15px 20px 10px 0px;
+    }
+
+    .sm-vertical-line {
+      height:60px;
+      margin: 15px 20px 0px 0px;
+    }
+
+    .vertical-line-lg {
+      height:210px;
+      margin: 0px 20px 0px 0px;
+    }
+    /* end lines */
+
+    .quote{
+      font-size: 15px;
+      letter-spacing: .02rem;
+      line-height: 18px;
+    }
+
+    .quote li {
+      padding-bottom: 15px;
+    }
+
+    /* challenges insights and solutions */
+    .num-list {
+      font-family: PaulGrotesk-medium;
+      letter-spacing: .04rem;
+      line-height: 20px;
+    }
+    .num-list li{
+      padding: 5px 0;
+    }
+
+    /* Role deliverables and tools */
+    .med-text {
+      font-family: PaulGrotesk-Medium;
+      line-height: 25px;
+    }
+
+    /* moodboard */
+    .mood-board {
+      background-image: url("../images/space/moodboard.png");
+      background-position: center;
+      background-size:  auto 320px ;
+      background-repeat: no-repeat;
+
+    }
+    /* assumptions */
+    /* user research */
+    .percent-desc {
+      font-family: PaulGrotesk-SemiBold;
+      font-size: 13px;
+      letter-spacing: .05rem;
+      line-height: 15px;
+      text-align: left;
+      width: 90%;
+    }
+
+    /* persona */
+    .persona-l, .persona-r{
+      padding: 0 5%;
+    }
+
+    /* compentive analysis */
+    /* user flows and user stories */
+    /* branding */
+    .branding {
+      letter-spacing: .05em;
+      margin-bottom: 20px;
+    }
+
+    /* color pallete */
+    .color-palette .caseStudy-text,.color-palette .half h4, .fonts .half h4,.fonts .half .caseStudy-text{
+      padding-left:15%;
+    }
+
+    /* low fedelity wireframes */
+    /* A AND B TESTING  */
+    .ab-desk-img {
+    width:100%;
+    }
+
+    .ab-percent{
+      width:90%;
+      text-align:center;
+      margin:0 auto;
+    }
+    /* user testing video */
+    /* final product */
+    .quarter, .mobile {
+      display: none;
+    }
+
+    .screens {
+      background-image: url("../images/space/final-mbg.png");
+      display: block;
+      height:100%;
+      padding:20px 0px 40px 25px;
+    }
+
+    .slider{
+      display: block;
+      width:70%;
+      margin:0 auto;
+    }
+    .slider img{
+      width:80%;
+      margin:0 auto;
+    }
+
+    .text-white{
+      color:white;
+    }
+
+    .slideshow-controls{
+      width:100%;
+      font-size: 30px;
+      position: relative;
+        top:-350px;
+        left:-20px;
+    }
+
+    /*desktop*/
+
+    .col-1-desktop, .col-2-desktop {
+      float:none;
+      width:100%;
+      position: unset;
+        top:0;
+    }
+
+    /*product features*/
+    /* prototypes */
+    /* conclusion */
+    .large-textbox {
+      margin: 0 auto;
+      width:80%;
+    }
+
+
+    /***----------------------------***/
+    /***------ About - tablet ------***/
+    /***----------------------------***/
+
+    .about-social-nav{
+      padding-left:0;
+    }
+    .about-social-nav li {
+      margin:0 3%;
+    }
+
+    .reviews, .review{
+      display: none;
+    }
+
+    .roles {
+      margin-left:0;
+      margin-right: 0;
+      width:70%;
+    }
+
+    .roles ul{
+      list-style: initial;
+      padding-left:20px;
+      margin-right: 30px;
+    }
+
+    .role {
+      margin: 20px 0;
+    }
+
+    .sidebar li{
+      padding: 4px;
+    }
+
+    .darkbg{
+      padding: 30px 10%;
+      width:80%;
+    }
+
+
+    /***--------------------------***/
+    /***------tab Footer ------***/
+    /***--------------------------***/
+
+    footer{
+      height: 60px;
+      text-align: center;
+      margin-top: 35px;
+    }
+
+    footer>.main{
+      width:90%;
+      margin:0 5%;
+    }
+
+    footer  nav{
+      padding:6px 5%;
+    }
+
+    footer>div>p{
+      width: 40%;
+    }
+
+    footer.large-footer{
+      height:600px;
+    }
+
+    }
+/**********************************/
+/******* Mobile view **************/
+/**********************************/
+ @media screen and (max-width: 500px) {
+    /* For mobile phones: */
+    body {
+      max-width: 100%;
+    }
+
+    header {
+      margin:0 6% 30px 6%;
+     }
+
+
+
+    section{
+      margin: 40px 0;
+    }
+
+
 
     .off{
       display: none;
@@ -748,10 +1338,6 @@ footer > div > .social-media{
     }
 
 
-    .margin-left{
-      margin-left: 10%;
-    }
-
     .mobile-full{
       display: block;
       width:100%;
@@ -760,23 +1346,6 @@ footer > div > .social-media{
       height:320px;
     }
 
-    .textbox {
-      width: 80%;
-      padding-top: 20px;
-    }
-
-    /*.mobile-right{
-      float:right;
-    }*/
-
-
-    /* nav */
-    /*#navbar{
-      height: 45px;
-      position: fixed;
-        top:-45px;
-        z-index: 2;
-    }*/
 
     /******************************/
     /***** mobile - nav ***********/
@@ -785,14 +1354,9 @@ footer > div > .social-media{
       display:block;
     }
 
-    nav{
-      padding:15px 5%;
-    }
-
     .mark{
       display: inline-block;
       float:left;
-      /*margin:10px;*/
     }
 
     .fixed{
@@ -813,11 +1377,15 @@ footer > div > .social-media{
     }
 
 
+    nav .none.off{
+      opacity:0;
+    }
+
     #menuToggle{
       display: block;
       float: right;
       position: relative;
-      top: 0px;
+      top: -35px;
       right: -325px;
         z-index: 2;
         -webkit-user-select: none;
@@ -947,10 +1515,6 @@ footer > div > .social-media{
       width:48%;
     }
 
-    .margin-left {
-      margin-left: 0;
-    }
-
     .padding-top {
       margin-top: 30px;
 
@@ -995,55 +1559,18 @@ footer > div > .social-media{
       font-size: 56px;
     }
 
-    h2{
-      font-size:30px;
-      line-height: 40px;
-    }
-
-    h3{
-      font-size:30px ;
-      letter-spacing: .05rem;
-      margin: 10px 0;
-    }
-
-    h4{
-      font-size:25px ;
-      margin: 10px 0;
-    }
-
-    p.desc {
-      margin-bottom:0;
+    .third.mobile-half{
+      text-align: left;
     }
 
     .caseStudy-text {
-      font-family: PaulGrotesk-regular;
       font-size: 15px;
-      letter-spacing: .05rem;
-      line-height: 21px;
     }
-
-    .desc{
-      font-size: 17px;
-      line-height: 25px;
-    }
-
-    .label {
-      font-size: 15px;
-      letter-spacing: .1rem;
-      margin: 15px 0;
-    }
-
 
     /* text for homepage only */
     .opening{
       margin:0 5%;
-      padding:6px;
-      position:unset;
       width:90%;
-    }
-    .slogan{
-      font-size: 30px;
-      line-height: normal;
     }
 
     .feat-project h2{
@@ -1052,7 +1579,6 @@ footer > div > .social-media{
 
     .feat-project-text > .desc{
       margin: 0 5% ;
-      text-align: left;
       width:90%;
     }
 
@@ -1060,8 +1586,6 @@ footer > div > .social-media{
       margin-left: 5%
     }
 
-    /* end homepage type styles */
-    /* */
     .logo {
       display: block;
       height:132px;
@@ -1069,6 +1593,8 @@ footer > div > .social-media{
       position: unset;
         z-index: 1;
     }
+
+    /* end homepage type styles */
 
     .feat-bg {
       background-image: url("../images/homepage/space-featBG.png");
@@ -1105,13 +1631,8 @@ footer > div > .social-media{
         display: block;
     }
 
-    .feat-logo-project{
-      margin-top:100px;
-      padding-right: 10%;
-    }
 
     img.feat-mobile-screen{
-      margin:0 auto;
       position: relative;
         top:130px;
         left:5%;
@@ -1119,10 +1640,7 @@ footer > div > .social-media{
     }
 
     .section-label, .textbox {
-      display:block;
-      float: none;
       width:90%;
-      margin: 0 auto;
     }
 
     /* lines */
@@ -1131,112 +1649,50 @@ footer > div > .social-media{
     }
 
     .vertical-line {
-      height:160px;
-      margin: 15px 20px 10px 0px;
-    }
-
-    .sm-vertical-line {
-      height:60px;
-      margin: 15px 20px 0px 0px;
+      height:120px;
     }
 
     .vertical-line-lg {
-      height:300px;
-      margin: 0px 20px 0px 0px;
+      height:275px;
     }
-
     /* end lines */
-
-    .quote{
-      font-size: 15px;
-      letter-spacing: .02rem;
-      line-height: 18px;
-    }
-
-    .quote li {
-      padding-bottom: 15px;
-    }
-
     /* challenges insights and solutions */
-    .num-list {
-      font-family: PaulGrotesk-medium;
-      letter-spacing: .04rem;
-      line-height: 20px;
-    }
-    .num-list li{
-      padding: 5px 0;
-    }
-
     /* Role deliverables and tools */
-    .med-text {
-      font-family: PaulGrotesk-Medium;
-      line-height: 25px;
-    }
-
     /* moodboard */
-    .mood-board {
-      background-image: url("../images/space/moodboard.png");
-      background-position: center;
-      background-size:  auto 320px ;
-      background-repeat: no-repeat;
-
-    }
     /* assumptions */
     /* user research */
-    .percent-desc {
-      font-family: PaulGrotesk-SemiBold;
-      font-size: 13px;
-      letter-spacing: .05rem;
-      line-height: 15px;
-      text-align: left;
-      width: 90%;
-    }
-
     /* persona */
-    .persona-l, .persona-r{
-      padding: 0 5%;
-    }
-
     /* compentive analysis */
     /* user flows and user stories */
     /* branding */
-    .branding {
-      letter-spacing: .05em;
-      margin-bottom: 20px;
-    }
     /* color pallete */
-    /* text */
+    .color-palette .caseStudy-text,.color-palette .half h4, .fonts .half h4,.fonts .half .caseStudy-text{
+      padding-left:5%;
+    }
     /* low fedelity wireframes */
     /* A AND B TESTING  */
-    .ab-desk-img {
-    width:100%;
-    }
-
     /* user testing video */
     /* final product */
     .quarter {
       display: block;
       width:100%;
     }
-    .screens {
-      background-image: url("../images/space/final-mbg.png");
-      display: block;
-      height:575px;
-      padding:20px 0px 10px 25px;
-    }
 
     .slider{
       display: block;
+      width:100%;
     }
 
-    .text-white{
-      color:white;
+    .slider img{
+      width:100%;
+      margin:0 auto;
     }
 
     .slideshow-controls{
-      width:40%;
-      font-size: 20px;
-      margin:0 auto;
+      width:30%;
+      margin:0 30%;
+      position: unset;
+
     }
 
     .row-1, .row-2, .row-3, .row-4{
@@ -1249,21 +1705,7 @@ footer > div > .social-media{
       max-width: 100%;
     }
 
-    /*desktop*/
-    .col-1-desktop {
-      width:100%;
-      float:none;
-    }
-
-    .col-2-desktop {
-      float:none;
-      width:100%;
-      position: unset;
-        top:0;
-    }
-
     /*product features*/
-
     .prod-feat{
       display: block;
       margin: 0;
@@ -1291,7 +1733,7 @@ footer > div > .social-media{
     /***----------------------------***/
 
     .about-social-nav{
-      margin: 20px 0;
+      margin-top: 20px;
       width:100%;
     }
     .about-social-nav li {
@@ -1299,49 +1741,18 @@ footer > div > .social-media{
       margin:0 4%;
     }
 
-    .reviews, .review{
-      display: none;
-    }
-
-
-
     .roles {
       display: block;
-      margin-left:0;
-      margin-right: 0;
       width:100%;
-    }
-
-    .roles ul{
-      list-style: initial;
-      padding-left:20px;
     }
 
     .roles li{
       padding: 6px;
     }
 
-    .role {
-      margin: 20px 0;
-    }
-
-    .Info-heading {
-      font-size: 20px;
-    }
-
     .sidebar{
       display: block;
       width:100%;
-    }
-
-    .sidebar li{
-      padding: 4px;
-    }
-
-    .darkbg{
-      margin: 0 auto;
-      padding: 30px 10%;
-      width:80%;
     }
 
     /***--------------------------***/
@@ -1368,10 +1779,21 @@ footer > div > .social-media{
     footer{
       height: 120px;
       text-align: center;
+      margin-top: 35px;
     }
 
     footer > div > nav {
       display:none;
+    }
+
+
+    footer a.read-more{
+      margin-bottom: 0px;
+      padding-bottom: 5px;
+    }
+
+    footer a.read-more i{
+      font-size: 16px
     }
 
     footer i {
@@ -1401,7 +1823,7 @@ footer > div > .social-media{
       width:100%;
     }
 
-    .large-footer{
+    footer.large-footer{
       height:500px;
     }
 
