@@ -372,6 +372,19 @@
     width: 80%;
   }
 
+  .user-research{
+    margin-left: 12%;
+  }
+
+  h2.user-research{
+    margin-top: 25px;
+  }
+
+  .user-research .third{
+    margin-left: 0;
+    width:27%;
+  }
+
   /* persona */
   .persona-l{
     padding: 0 25px 0 23%;
@@ -465,8 +478,6 @@
     }
 
   /*product features*/
-
-
 
   .left {
     float: left;
@@ -1150,13 +1161,25 @@
     /* user research */
     .percent-desc {
       font-family: 'PaulGrotesk-SemiBold';
-      font-size: 13px;
+      font-size: 14px;
       letter-spacing: .05rem;
       line-height: 15px;
       text-align: left;
       width: 90%;
     }
 
+    h2.user-research{
+      margin-top: 10px;
+    }
+
+    .user-research{
+      margin-left: 10%;
+    }
+
+    .user-research .third{
+      margin-left: 0;
+      width:27%;
+    }
     /* persona */
     .persona-l, .persona-r{
       padding: 0 5%;
@@ -1661,6 +1684,22 @@
     /* moodboard */
     /* assumptions */
     /* user research */
+    h2.user-research{
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .user-research{
+      margin-left: 0%;
+    }
+
+    .user-research h3{
+      margin-top:0;
+    }
+    .user-research .third{
+      margin-top: 10px;
+      width:49%;
+    }
     /* persona */
     /* compentive analysis */
     /* user flows and user stories */
