@@ -1812,7 +1812,7 @@
     /* social media icons*/
     footer > div > ul.social-media > li {
       margin: 0 0px;
-      padding:0 20px;
+      padding:0 6%;
       position: relative;
         left: -20px;
     }
