@@ -48,9 +48,6 @@ animateHTML().init()
 
 
 // Image slideshow
-
-
-
 var slideIndex = 1;
 showDivs(slideIndex);
 

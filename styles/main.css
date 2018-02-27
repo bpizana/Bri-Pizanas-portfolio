@@ -90,7 +90,7 @@
   /* link typography */
   a {
     color:#F07E81;
-    font-family: PaulGroteskSoft-Light;
+    font-family: 'PaulGroteskSoft-Light';
     font-size: 20px;
     text-decoration: none;
   }
@@ -105,24 +105,24 @@
   /* header  typography*/
   /* general typography */
   h1 {
-    font-family: PaulGrotesk-Bold;
+    font-family:'PaulGrotesk-Bold';
     font-size:80px ;
   }
 
   h2{
-    font-family: PaulGrotesk-Bold;
+    font-family: 'PaulGrotesk-Bold';
     font-size:45px ;
   }
 
   h3{
-    font-family: PaulGroteskSoft-Bold;
+    font-family: 'PaulGroteskSoft-Bold';
     font-size:45px ;
     letter-spacing: .2rem;
     margin: 30px 0;
   }
 
   h4{
-    font-family: PaulGroteskSoft-Bold;
+    font-family: 'PaulGroteskSoft-Bold';
     font-size:35px ;
     margin: 30px 0;
   }
@@ -133,14 +133,14 @@
 
   /* common text-styles typography*/
   .caseStudy-text {
-    font-family: PaulGrotesk-regular;
+    font-family: 'PaulGrotesk-regular';
     font-size: 18px;
     letter-spacing: .05rem;
     line-height: 25px;
   }
 
   .desc{
-    font-family: PaulGrotesk-Light;
+    font-family: 'PaulGrotesk-Light';
     font-size: 22px;
     letter-spacing: .07rem;
     line-height: 29px;
@@ -148,7 +148,7 @@
 
   .label {
     color: #9BA0B3;
-    font-family: PaulGrotesk-SemiBold;
+    font-family: 'PaulGrotesk-SemiBold';
     font-size: 1rem;
     letter-spacing: .1rem;
     margin-top: 7px;
@@ -200,7 +200,7 @@
     }
 
   .slogan {
-    font-family: PaulGrotesk-UltraLight;
+    font-family: 'PaulGroteskSoft-UltraLight';
     font-size: 44px;
     letter-spacing: .2rem;
     line-height: 50px;
@@ -320,7 +320,7 @@
 
   .quote{
     color: #9BA0B3;
-    font-family: PaulGrotesk-SemiBold;
+    font-family: 'PaulGrotesk-SemiBold';
     font-size: 1rem;
     letter-spacing: .05rem;
     line-height: 25px;
@@ -333,14 +333,14 @@
   }
 
   .light{
-    font-family: paulGrotesk-Light;
+    font-family: 'PaulGrotesk-Light';
     padding-top:10px;
   }
 
 
   /* challenges insights and solutions */
   .num-list {
-    font-family: PaulGrotesk-SemiBold;
+    font-family: 'PaulGrotesk-SemiBold';
     letter-spacing: .04rem;
     line-height: 25px;
   }
@@ -355,7 +355,7 @@
 
 
   .med-text {
-    font-family: PaulGrotesk-Medium;
+    font-family: 'PaulGrotesk-Medium';
     line-height: 25px;
   }
 
@@ -364,7 +364,7 @@
 
   /* user research */
   .percent-desc {
-    font-family: PaulGrotesk-SemiBold;
+    font-family: 'PaulGrotesk-SemiBold';
     font-size: 16px;
     letter-spacing: .05rem;
     line-height: 20px;
@@ -509,7 +509,7 @@
 
   .subhead {
     color:#F0A377;
-    font-family: PaulGrotesk-Bold;
+    font-family: 'PaulGrotesk-Bold;''
     letter-spacing: .09rem;
     margin-top: 25px;
     text-transform: uppercase;
@@ -569,7 +569,7 @@
   }
 
   .Info-heading {
-    font-family: paulGrotesk-SemiBold;
+    font-family: 'PaulGrotesk-SemiBold';
     font-size: 20px;
   }
 
@@ -611,7 +611,7 @@
   }
 
   .project .project-name {
-    font-family: PaulGrotesk-Bold;
+    font-family: 'PaulGrotesk-Bold';
     font-size: 20px;
     letter-spacing: .1rem;
     margin-top: 15px;
@@ -649,7 +649,7 @@
 
   footer nav a {
     color: #9BA0B3;
-    font-family: PaulGrotesk-SemiBold;
+    font-family: 'PaulGrotesk-SemiBold';
     font-size: 18px;
   }
     footer nav a:hover {
@@ -666,7 +666,7 @@
   }
 
   footer p.desc {
-    font-family: PaulGrotesk-regular;
+    font-family: 'PaulGrotesk-regular';
     line-height: 25px;
     letter-spacing: .1rem;
   }
@@ -675,7 +675,7 @@
   footer > div > p {
     color: #F07E81;
     display: inline-block;
-    font-family: PaulGrotesk-Regular;
+    font-family: 'PaulGrotesk-Regular';
     letter-spacing: .1rem;
     margin: 0 auto;
     padding-top: 20px;
@@ -1124,7 +1124,7 @@
 
     /* challenges insights and solutions */
     .num-list {
-      font-family: PaulGrotesk-medium;
+      font-family: 'PaulGrotesk-Medium';
       letter-spacing: .04rem;
       line-height: 20px;
     }
@@ -1134,7 +1134,7 @@
 
     /* Role deliverables and tools */
     .med-text {
-      font-family: PaulGrotesk-Medium;
+      font-family: 'PaulGrotesk-Medium';
       line-height: 25px;
     }
 
@@ -1149,7 +1149,7 @@
     /* assumptions */
     /* user research */
     .percent-desc {
-      font-family: PaulGrotesk-SemiBold;
+      font-family: 'PaulGrotesk-SemiBold';
       font-size: 13px;
       letter-spacing: .05rem;
       line-height: 15px;
