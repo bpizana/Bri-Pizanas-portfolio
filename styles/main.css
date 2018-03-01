@@ -131,6 +131,12 @@
     margin-bottom: 15px;
   }
 
+  .light{
+    font-family: "PaulGroteskSoft-UltraLight";
+    font-size: 16px;
+    letter-spacing: .06rem;
+  }
+
   /* common text-styles typography*/
   .caseStudy-text {
     font-family: 'PaulGrotesk-regular';
@@ -394,6 +400,10 @@
     padding: 0 23% 0 25px;
   }
 
+  .personas .half{
+    width:50%;
+  }
+
   /* compentive analysis */
 
   /* user flows and user stories */
@@ -533,12 +543,12 @@
   /***--------------------------***/
 
   .about-social-nav{
-    display:inline-block;
+    display:inline-flex;
     margin: 20px 0%;
     width:80%;
   }
   .about-social-nav li {
-    display: inline-block;
+    display: inline-flex;
     margin:0 6%;
   }
 
@@ -667,7 +677,7 @@
       color:#F07E81;
     }
 
-    footer h3{
+    footer h4{
       color:#F07E81;
       margin-top:30px ;
     }
@@ -714,7 +724,8 @@
   }
 
   .large-footer{
-    height:750px;
+    padding-top: 10px;
+    height:800px;
   }
 
   .bottom{
@@ -806,7 +817,7 @@
   }
 
   .large-footer {
-    height: 660px;
+    height: 750px;
   }
 
   .feat-2 {
@@ -1327,15 +1338,80 @@
     }
 
     footer.large-footer{
-      height:600px;
+      height:675px;
     }
 
+    }
+
+
+  @media screen and (max-width: 670px) {
+
+    /*About - name on new line*/
+    span.new-line{
+      display: block;
+    }
+
+    /*personas*/
+    .personas .half{
+      float: none;
+      width:100%;
+    }
+
+    footer{
+      height: 80px;
+      text-align: center;
+      margin-top: 35px;
+      padding-top: 20px;
+    }
+
+    footer > div > nav {
+      display:none;
+    }
+
+
+    footer a.read-more{
+      margin-bottom: 0px;
+      padding-bottom: 5px;
+    }
+
+    footer a.read-more i{
+      font-size: 16px
+    }
+
+    footer i {
+      font-size: 30px;
+    }
+    /* footer call to action*/
+    footer > div > p {
+      display: block;
+      padding:0;
+      width:100%;
+    }
+
+    /* social media icons*/
+    footer > div > ul.social-media > li {
+      margin: 0 auto;
+      padding: 15px 6%;
+      position: relative;
+      left: 2%;
+    }
+
+    footer > div > .social-media{
+      float:none;
+      margin: 0 0%;
+      width:100%;
+    }
+
+    footer.large-footer{
+      height:700px;
+    }
     }
 /**********************************/
 /******* Mobile view **************/
 /**********************************/
  @media screen and (max-width: 500px) {
-    /* For mobile phones: */
+    /* For mobile phones:  organized- most used/common - nav - type - -pages by section*/
+
     body {
       max-width: 100%;
     }
@@ -1344,13 +1420,9 @@
       margin:0 6% 30px 6%;
      }
 
-
-
     section{
       margin: 40px 0;
     }
-
-
 
     .off{
       display: none;
@@ -1359,7 +1431,6 @@
     .hide{
       opacity:0;
     }
-
 
     .mobile-full{
       display: block;
@@ -1408,8 +1479,9 @@
       display: block;
       float: right;
       position: relative;
-      top: -35px;
-      right: -325px;
+      position: relative;
+        right: -300px;
+        top: -30px;
         z-index: 2;
         -webkit-user-select: none;
         user-select: none;
@@ -1580,6 +1652,10 @@
 
     h1{
       font-size: 56px;
+    }
+
+    h3{
+      margin: 0 0 10px 0;
     }
 
     .third.mobile-half{
@@ -1815,38 +1891,9 @@
     /***------mobile Footer ------***/
     /***--------------------------***/
 
-    footer{
-      height: 120px;
-      text-align: center;
-      margin-top: 35px;
-    }
-
-    footer > div > nav {
-      display:none;
-    }
-
-
-    footer a.read-more{
-      margin-bottom: 0px;
-      padding-bottom: 5px;
-    }
-
-    footer a.read-more i{
-      font-size: 16px
-    }
-
-    footer i {
-      font-size: 30px;
-    }
-    /* footer call to action*/
-    footer > div > p {
-      display: block;
-      padding:0;
-      width:100%;
-    }
 
     footer .middle-project{
-      margin:20px 0;
+      margin:0 0 10px 0;
     }
     /* social media icons*/
     footer > div > ul.social-media > li {
@@ -1856,14 +1903,9 @@
         left: -20px;
     }
 
-    footer > div > .social-media{
-      float:none;
-      margin: 0 0%;
-      width:100%;
-    }
 
     footer.large-footer{
-      height:500px;
+      height:700px;
     }
 
     .large-footer .project {
@@ -1871,6 +1913,11 @@
         width:48%;
     }
 
+    footer > div > p {
+      display: block;
+      padding: 0;
+      width: 100%;
+    }
     .large-footer>section>div .middle-project{
       width: 0;
     }
