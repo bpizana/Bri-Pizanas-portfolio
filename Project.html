@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
-    <nav>
+    <nav class="main">
       <a href="index.html">
         <img class="none mark" src="images/Common/mark.png" alt="Bri Piza&ntilde;a logo"/>
         <img class="off full-logo" src="images/main nav/logo-bri.png" alt="Bri Piza&ntilde;a logo"/>
@@ -59,6 +59,7 @@
       </div>
       <!--Div for the stary backgroung image  -->
       <div class="feat-project feat-bg">
+
         <!-- <img id="feat-logo" class="feat-logo" src="images/space/logo-light-clear.png"/> -->
         <img class="feat-mobile-screen" src="/images/homepage/spaceFeat.png"/>
       </div>
@@ -80,39 +81,61 @@
 
       <section class="colored">
         <div class="center ">
-          <div class="  third center mobile-full">
-            <h4>Design Role</h4>
+          <div class="  small-third align-left mobile-full">
+            <h4 class="h4 align-left ">Design Role</h4>
             <ul class="med-text">
-              <li>UX Design </li>
-              <li>Visual Design</li>
-              <li>Branding &amp; Identity</li>
+              <li class="design-role">UX Design </li>
+              <li class="design-role">Visual Design</li>
+              <li class="design-role">Branding &amp; Identity</li>
             </ul>
           </div>
-          <div class=" third center mobile-full">
-            <h4>Deliverables</h4>
-            <ul class="med-text">
-              <li>User Surveys</li>
-              <li>Personas</li>
-              <li>Competitive Analysis</li>
-              <li>User Stories &amp; Flows</li>
-              <li>Paper Prototype</li>
-              <li>Wireframes</li>
-              <li>User Testing</li>
-              <li>Visual Design</li>
+          <div class="large-third  mobile-full">
+            <h4 class="h4 align-left">Deliverables</h4>
+            <ul class="med-text align-left left">
+              <li class="design-role">User Surveys</li>
+              <li class="design-role">Personas</li>
+              <li class="design-role">User Stories &amp; Flows</li>
+              <li class="design-role">Competitive Analysis</li>
             </ul>
+            <ul class="med-text align-left right">
+            <li class="design-role">Paper Prototype</li>
+            <li class="design-role">Wireframes</li>
+            <li class="design-role">User Testing</li>
+            <li class="design-role">Visual Design</li>
+          </ul>
           </div>
-          <div class=" third center mobile-full">
-            <h4>Tools</h4>
+          <div class=" small-third align-left mobile-full">
+            <h4 class="h4 align-left">Tools</h4>
             <ul class="med-text">
-              <li>Sketch</li>
-              <li>InVision</li>
-              <li>Photoshop</li>
-              <li>Illustrator</li>
-              <li>Usability Hub</li>
+              <li class="design-role">Sketch</li>
+              <li class="design-role">InVision</li>
+              <li class="design-role">Photoshop</li>
+              <!-- <li class="design-role">Illustrator</li> -->
+              <li class="design-role">Usability Hub</li>
             </ul>
           </div>
         </div>
       </section>
+
+      <section class="prototypes">
+        <div class="half center off">
+          <a  class="off" href="https://invis.io/MYFBKAP36E5" target="_blank">
+            <div class="desktop-icon"><p>  </p></div>
+            <!-- <img  class="off desktop-icon" src="images/Common/desktop-icon.gif" alt="desktop icon"> -->
+            <!-- <img  class="desktop-gif" src="images/Common/desktop-hover.gif" alt="desktop icon"> -->
+            <p class="off"> View Desktop Prototype</p>
+          </a>
+        </div>
+        <div class="half center">
+          <a href="https://invis.io/C5FBN2LZK4V" target="_blank">
+            <div class="mobile-icon"><p>  </p></div>
+
+            <!-- <img src="images/Common/mobile.png" alt="mobile icon"> -->
+            <p> View Mobile Prototype</p>
+          </a>
+        </div>
+      </section>
+  </section>
 
       <section>
         <div class="section-label">
@@ -152,16 +175,15 @@
           <div class="textbox">
             <div class="line"><p>  </p> </div>
             <h3>Assumptions</h3>
-            <p class="caseStudy-text">There are generally three types of people in the world when it comes to file storage&colon;</p>
+            <p class="caseStudy-text">There are generally three types of people in the world when it comes to file storage:</p>
             <div class="vertical-line">
-              <p> </p>
-            </div><!-- for vertical line  -->
               <ol class="quote">
                 <li>1. The people that like to store everything;</li>
                 <li>2. The people that only keep what is essential; and</li>
                 <li>3. The people in between who want to have a lot of files, but they want them organized.</li>
               </ol>
-            <p class="caseStudy-text padding-top">Along with most people I know,  I happen to be the third type of person. We are the general consumers of the fast-growing cloud storage market. Over the years, I have tried a few cloud storage apps, and they all do different things well. So when prompted to create a cloud storage app I decided to put all of those great features together and see if anyone else shares my problems and if not solve the problems they were having.</p>
+            </div><!-- for vertical line  -->
+            <p class="caseStudy-text padding-top">Along with most people I know, I happen to be the third type of person. We are the general consumers of the fast-growing cloud storage market. Over the years, I have tried a few cloud storage apps, and they all do different things well. So when prompted to create a cloud storage app I decided to put all of those great features together and see if anyone else shares my problems and if not solve the problems they were having.</p>
           </div>
         </section>
         <!-- user research -->
@@ -170,7 +192,7 @@
             <div class="user-research">
               <div class="third mobile-half">
                 <h3>85%</h3>
-                <p class="percent-desc">of people use cloud storage apps like Google Drive&comma; Dropbox&comma; Box&comma; Pinterest.</p>
+                <p class="percent-desc">of people use cloud storage apps like Google Drive, Dropbox, Box, &amp; Pinterest.</p>
               </div>
               <div class="third mobile-half">
                 <h3>82%</h3>
@@ -204,10 +226,10 @@
                 <h4>Amelia</h4>
                 <p class="percent-desc">25 Y/O stay at home mom from California</p>
                 <p class="desc uppercase">Goals</p>
-                <p class="caseStudy-text">I want to be able to save links to for project ideas&comma; categorize the links and files I save. Then be able to send them to my friends and family.</p>
-                <div class="sm-vertical-line"><p> </p>
+                <p class="caseStudy-text">I want to be able to save links to for project ideas, categorize the links and files I save. Then be able to send them to my friends and family.</p>
+                <div class="vertical-line">
+                  <p class="quote">&ldquo; I love to do DIY projects and share them with people. It's also a great way to spend time with the family.&rdquo; </p>
                 </div>
-                  <p class="quote">&ldquo; I love to do DIY projects and share them with people. It&apos;s also a great way to spend time with the family.&rdquo; </p>
                 <p class="desc uppercase">Frustrations</p>
                 <p class="caseStudy-text">I spend half of my day trying to find all of the files that go together and then I have to use numerous programs to save, edit and then send or share my files.</p>
               </div>
@@ -219,12 +241,11 @@
                 <p class="percent-desc">29 Y/O software engineer from Seattle</p>
                 <p class="desc uppercase">Goals</p>
                 <p class="caseStudy-text">I want to collaborate with coworkers and have an easy way to separate my work and personal files. I also need an easy way to insert code and spreadsheets into docs for review.</p>
-                <div class="sm-vertical-line">
-                  <p> </p>
+                <div class="vertical-line">
+                  <p class="quote">&ldquo; I need to be able to organize ideas, shared between myself and others, and collaborate  with coworkers.&rdquo; </p>
                 </div>
-                <p class="quote">&ldquo; I need to be able to organize ideas&comma; shared between myself and others&comma; and collaborate  with coworkers.&rdquo; </p>
                 <p class="desc uppercase">Frustrations</p>
-                <p class="caseStudy-text">It&apos;s hard to insert code into documents for review or discussion. My team often collaborates in documents, but we all use the company account because it is complicated share and set permissions, so we never know who changed what.</p>
+                <p class="caseStudy-text">It's hard to insert code into documents for review or discussion. My team often collaborates in documents, but we all use the company account because it is complicated share and set permissions, so we never know who changed what.</p>
               </div>
             </div>
           </section>
@@ -232,7 +253,7 @@
           <section class="textbox margin-left">
             <h3>Competitive Analysis Highlights</h3>
             <p class="caseStudy-text">To see where Space will sit in the market, I needed to dig deeper into the world of cloud storage and organization apps. In my user survey, I asked which apps people use most for cloud storage and organization. Google Drive, DropBox, Box, and even Pinterest was among them.</p>
-            <p class="caseStudy-text">Some of their strengths were sharing and collaborating - some focus more on who was collaborating, and some focus more on what they have changed. DropBox handles sharing permissions best. Google Drive marks where people are really well. Overall they provide a lot of information in its purest form. None of these apps have an easy way of saving links</p>
+            <p class="caseStudy-text">Some of their strengths were sharing and collaborating - some focus more on who was collaborating, and some focus more on what they have changed. DropBox handles sharing permissions best. Google Drive marks where people are really well. Overall they provide a lot of information in its purest form. None of these apps have an easy way of saving links.</p>
           </section>
           <!-- user flows and user stories -->
           <section>
@@ -255,10 +276,12 @@
               <h1 class="branding">Branding</h1>
               <p class="caseStudy-text">Now I was ready to generate concepts and thumbnails based on my research. I kept myself accountable to my users as I started designing for Space with my research.</p>
               <div class="top-bottom">
-                <div class="vertical-line-lg"> <p> </p> </div>
+                <!-- <div class="vertical-line-lg"> <p> </p> </div> -->
+              <div class="vertical-line-lg">
                 <p class="quote padding-top">My users are mostly females (60% female&comma; 40%male)&comma; 29 and younger that are students or work in industries of business&comma; education&comma; technology&comma; marketing&comma; or design.</p>
                 <p class="quote">They use cloud storage for a mix of professional and personal use every day primarily on their desktop/laptop computer. But occasionally on their phone too.</p>
                 <p class="quote">They want to send/share large files and folder&comma; collaborate and create content.</p>
+              </div>
               </div>
               <p class="caseStudy-text">Space was chosen as the name for this application because of its flexibility in how it can be interpreted. To some&comma; it will mean the space on the page or different workspaces&comma; or you can take it literally as the space the application is providing for you. Either way, it&apos;s your space&comma; and you can do what you want with it.</p>
             </div>
@@ -415,18 +438,18 @@
                 <p class="caseStudy-text persona-l">Save and preview any file type. Including weblinks, video, adobe illustrator, PSD and more.</p>
               </div>
             </div>
-            <div class="colored prod-feat">
+            <div class="colored prod-feat feat-3">
               <div class="half align-top top-bottom">
                 <p class="desc uppercase persona-r">Share Faster</p>
                 <p class="caseStudy-text persona-r">with anyone&comma; or pretect what you share with a password.<br>Comment on docs&comma; create tasks for projects and collaborate.</p>
               </div>
-              <img class="half right feat-3" src="images/space/feat-share.png" alt="product screens for sharing"/>
+              <img class="half right feat-3-img" src="images/space/feat-share.png" alt="product screens for sharing"/>
 
             </div>
             <div class="prod-feat">
               <img class="half  top" src="images/space/feat-create.png" alt="product screens for creating documents and content"/>
 
-              <div class="half  align-top top">
+              <div class="half right align-top top">
                 <p class="desc uppercase persona-l">Create all</p>
                 <p class="caseStudy-text persona-l"> Create and edit documents quickly. Add spreadsheets, images, links, code, analytics, timelines and more to your docs! </p>
                 <p class="caseStudy-text persona-l"> All documents autosave with a timestamp at the bottom of the screen, so you know it's saved.</p>
@@ -439,13 +462,17 @@
           <section class="prototypes">
             <div class="half center off">
               <a  class="off" href="https://invis.io/MYFBKAP36E5" target="_blank">
-                <img  class="off" src="images/Common/desktop.png" alt="desktop icon">
+                <div class="desktop-icon"><p>  </p></div>
+                <!-- <img  class="off desktop-icon" src="images/Common/desktop-icon.gif" alt="desktop icon"> -->
+                <!-- <img  class="desktop-gif" src="images/Common/desktop-hover.gif" alt="desktop icon"> -->
                 <p class="off"> View Desktop Prototype</p>
               </a>
             </div>
             <div class="half center">
               <a href="https://invis.io/C5FBN2LZK4V" target="_blank">
-                <img src="images/Common/mobile.png" alt="mobile icon">
+                <div class="mobile-icon"><p>  </p></div>
+
+                <!-- <img src="images/Common/mobile.png" alt="mobile icon"> -->
                 <p> View Mobile Prototype</p>
               </a>
             </div>
@@ -460,7 +487,7 @@
           <p class="caseStudy-text">There is already a lot of excellent cloud storage companies out there&comma; so initially&comma; I was doubtful&comma; especially when 80% of people said that they use Google Drive because it&apos;s convenient. But to my surprise&comma; in my last round of user testing&comma; people loved Space. The categories were a huge hit! People liked the organization and the minimalist new doc page. </p>
           <p class="caseStudy-text">Of course&comma; my app isn&apos;t perfect though! It may have a convenient to-do list feature and be some organizational help&comma; but it doesn&apos;t have quick note taking like most cloud storage apps&comma; and it could use some keyboard shortcuts for all of us tech nerds&comma; I mean tech-savvy people. </p>
           <p class=" caseStudy-text subhead">LESSON Learned</p>
-          <p class="caseStudy-text">Oh&comma; and I had to take out my beloved &ldquo; create&rdquo;  button because everyone wanted to have a single &ldquo; add&rdquo;  button. I held onto that create button all the way to the end when a final A&amp;B test smacked me in the face and said&comma; &ldquo;NO ONE GETS THE &ldquo; CREATE&rdquo;  BUTTON!&rdquo;  So I let it go. But now I know that the more testing you can do the better&comma; and it&apos;s okay to love an idea&comma; but you have to be willing to let it go too. </p>
+          <p class="caseStudy-text">Oh&comma; and I had to take out my beloved &ldquo;create&rdquo;  button because everyone wanted to have a single &ldquo;add&rdquo; button. I held onto that create button all the way to the end when a final A&amp;B test smacked me in the face and said&comma; &ldquo;NO ONE GETS THE &ldquo;CREATE&rdquo; BUTTON!&rdquo; So I let it go. But now I know that the more testing you can do the better&comma; and it&apos;s okay to love an idea&comma; but you have to be willing to let it go too. </p>
         </div>
       </section>
     </main>
@@ -473,9 +500,9 @@
             <a href="/images/resume-BriPizana.pdf" download>resume</a>. </p>
         </div>
 
-        <h4 class="footer">Other Projects</h4>
-        <div class="other-projects">
-          <div class="project">
+        <h4 class="footer not-home">Other Projects</h4>
+        <div class="other-projects not-home">
+          <div class="project not-home">
             <div>
               <img src="images/Common/placeholderimage.png" alt="project screenshot"/>
             </div>
@@ -484,7 +511,7 @@
             <a class="read-more" href="#">Read More <i class="fas fa-caret-right"></i></a>
           </div>
 
-          <div class="project middle-project off">
+          <div class="project middle-project  not-home off">
             <div class="">
               <img class="off" src="images/Common/placeholderimage.png" alt="project screenshot"/>
             </div>
@@ -493,7 +520,7 @@
             <a class="read-more off" href="#">Read More <i class="fas fa-caret-right"></i></a>
           </div>
 
-          <div class="project">
+          <div class="project not-home">
             <div>
               <img src="images/Common/placeholderimage.png" alt="project screenshot"/>
             </div >

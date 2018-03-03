@@ -3,6 +3,10 @@
 }
 
 
+.not-home{
+    display: none;
+}
+
   /* fancy css for js*/
 @keyframes fade-in {
       from {opacity: 0; transform: scale(.7,.7)}
@@ -23,8 +27,9 @@
 
   main {
     padding: 0 13%;
-    max-width:72%;
+    max-width:1450px;
     margin:0 auto;
+    width:72%;
   }
 
   img, video{
@@ -66,6 +71,7 @@
   .main{
     width:72%;
     margin:0 auto;
+    max-width: 1450px;
   }
 
 
@@ -117,8 +123,8 @@
   h3{
     font-family: 'PaulGroteskSoft-Bold';
     font-size:45px ;
-    letter-spacing: .2rem;
-    margin: 30px 0;
+    letter-spacing: .01rem;
+    margin: 30px 0 15px 0;
   }
 
   h4{
@@ -126,6 +132,31 @@
     font-size:35px ;
     margin: 30px 0;
   }
+
+      .h4{
+        font-family: 'PaulGroteskSoft-bold';
+        font-size:20px ;
+        text-transform: uppercase;
+        letter-spacing: .05rem;
+        margin:0 auto;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+
+      }
+      .design-role{
+        font-family: 'PaulGroteskSoft-regular';
+        letter-spacing: .07rem;
+        margin:0 auto;
+        padding:4px 1px 0 0;
+      }
+
+      .align-left{
+        text-align: left;
+      }
+      .align-right{
+        text-align: right;
+      }
 
   p{
     margin-bottom: 15px;
@@ -148,8 +179,8 @@
   .desc{
     font-family: 'PaulGrotesk-Light';
     font-size: 22px;
-    letter-spacing: .07rem;
-    line-height: 29px;
+    letter-spacing: 0.05rem;
+    line-height: 33px;
   }
 
   .label {
@@ -179,6 +210,11 @@
     width:710px;
   }
 
+   h3.home-page{
+    font-family: "PaulGrotesk-Bold";
+    margin-left: 7%;
+    letter-spacing: .05rem;
+  }
 
   .feat-project-text > h2{
     letter-spacing: .5rem;
@@ -226,6 +262,8 @@
   .feat-bg {
     background-image: url("../images/homepage/space-featBG.png");
     margin-bottom: 150px;
+    background-size:cover;
+    background-repeat: no-repeat;
   }
 
   .feat-logo{
@@ -263,6 +301,21 @@
     width:49%;
   }
 
+
+      .small-third{
+        display:inline-block;
+        width:20%;
+        vertical-align: top;
+        text-align: left;
+      }
+      .large-third{
+        display:inline-block;
+        width:30%;
+        vertical-align: top;
+        margin:0 8% 0 5%;
+        text-align: left;
+      }
+
   .section-label {
     display:inline-flex;
     float: left;
@@ -298,28 +351,26 @@
   width:100%;
   }
 
-  .vertical-line {
+  /*.vertical-line {
     background: #9BA0B3  no-repeat scroll center;
     height:100px;
     float: left;
     margin: 15px 20px 20px 50px;
     width:1px;
-  }
+  }*/
 
-  .sm-vertical-line {
+  /*.sm-vertical-line {
     background: #9BA0B3  no-repeat scroll center;
     height:75px;
     float: left;
     margin: 15px 20px 0px 50px;
     width:1px;
-  }
+  }*/
 
-  .vertical-line-lg {
-    background: #9BA0B3  no-repeat scroll center;
-    height:235px;
-    float: left;
-    margin: 0px 20px 0px 50px;
-    width:1px;
+  .vertical-line-lg, .sm-vertical-line, .vertical-line {
+    border-left:  2px solid #9BA0B3;
+    padding: 0 4%;
+    margin-left: 4%;
   }
 
 
@@ -434,7 +485,7 @@
   .screens {
     background-image: url("../images/space/final-mbg.png");
     display: inline-block;
-    height:2500px;
+    height:100%;
     padding:100px;
   }
     /* mobile */
@@ -510,6 +561,10 @@
     top:-250px;
   }
 
+  .feat-3{
+    min-height: 300px;
+  }
+
 
   /* prototypes */
   .prototypes{
@@ -518,9 +573,43 @@
     height:300px;
   }
 
+  .prototypes a p {
+    color:#F07E81;
+  }
+
+  .prototypes a:hover p {
+    color:#F0CF7E;
+  }
+
   .half > a {
     margin: 0 auto;
   }
+
+  .desktop-icon{
+    background-image: url('../images/Common/desktop-icon.gif');
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: 50% -3%;
+    height: 150px;
+    margin-bottom: 15px;
+  }
+  .mobile-icon{
+    background-image: url('../images/Common/mobile-icon.gif');
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position: 50% -5%;
+    height: 160px;
+    margin-bottom: 15px;
+  }
+
+  .mobile-icon:hover{
+    background-position: 50% 117%;
+  }
+
+  .desktop-icon:hover{
+    background-position: 50% 100%;
+  }
+
 
   /* conclusion */
   .large-textbox {
@@ -542,6 +631,11 @@
   /***---------- About ---------***/
   /***--------------------------***/
 
+
+  #about article p {
+    letter-spacing: 0.025rem;
+    line-height: 35px;
+  }
   .about-social-nav{
     display:inline-flex;
     margin: 20px 0%;
@@ -725,7 +819,7 @@
 
   .large-footer{
     padding-top: 10px;
-    height:800px;
+    height:300px;
   }
 
   .bottom{
@@ -736,6 +830,14 @@
 
 
 @media screen and (max-width: 1535px) {
+
+  .small-third{
+    width:15%;
+  }
+  .large-third{
+    width:35%;
+    margin:0 8% 0 5%;
+  }
 
   .margin-left {
     margin-left: 15%;
@@ -753,16 +855,18 @@
   }
 
   .feat-project-text > .desc {
-      width: 70%;
-      margin: 0 15% 20px;
+    width: 60%;
+    margin: 0 20% 20px;
+    letter-spacing: 0.05rem;
+    line-height: 33px;
   }
 
   .feat-project > .read-more {
-    margin-left: 15%;
+    margin-left: 20%;
   }
 
   .desc {
-    line-height: 25px;
+    line-height: 33px;
   }
 
   .row-1 {
@@ -796,7 +900,27 @@
   }
   }
 
+@media screen and (max-width: 1501px) {
+
+  .feat-2 {
+      position: relative;
+      top: 180px;
+  }
+
+}
+
+
 @media screen and (max-width: 1385px) {
+
+
+
+  .logo {
+    margin-left: 0%;
+  }
+  .opening {
+    margin-left: 11%;
+    width: 600px;
+  }
 
   .colored {
     background-color: #F3F4FA;
@@ -808,31 +932,52 @@
       margin-bottom: 50px;
   }
 
+
   .screens{
-    height: 1900px;
-    padding:50px;
+    height: 100%;
+    padding:100px;
   }
   .mobile{
-    height:900px;
+    height:100%;
   }
 
   .large-footer {
-    height: 750px;
+    height: 300px;
   }
 
   .feat-2 {
     position: relative;
-    top: 90px;
+    top: 150px;
+  }
+
+  .feat-3{
+    min-height: 280px;
+  }
+  .feat-3-img{
+    position: relative;
+    top: 10px;
   }
 
   .prod-feat{
     margin:60px 0;
   }
 
+  .prod-feat .half{
+    width:45%;
+  }
+
   .review {
     height: 305px;
     margin-bottom: 50px;
     width: 41%;
+  }
+
+  .large-footer{
+    height:330px;
+  }
+
+  .large-footer div p {
+    font-size: 16px;
   }
 
   }
@@ -848,6 +993,22 @@
     padding: 0 10%;
   }
 
+  h3 {
+      font-family: 'PaulGroteskSoft-Bold';
+      font-size: 40px;
+      letter-spacing: 0.01rem;
+      line-height: 60px;
+      margin: 30px 0 15px 0;
+  }
+  .half .caseStudy-text{
+    font-size: 16px;
+    padding:0 20px;
+  }
+
+  .half h4{
+    padding: 0 20px;
+  }
+
   .about-social-nav{
     width:100%;
   }
@@ -860,10 +1021,27 @@
     margin-left:12%;
   }
 
+  .small-third{
+    width:28%;
+    text-align: center;
+  }
+
+  .large-third{
+    width:28%;
+    margin:0 4% 0 4%;
+    text-align: center;
+  }
+  .large-third .right,   .large-third .left{
+    float:none;
+  }
+
+  .align-left{
+    text-align: center;
+  }
 
  .logo {
-    margin-left: 40px;
-    margin-top: 80px;
+   margin-left: 2%;
+   margin-top: 80px;
   }
 
   .opening {
@@ -914,6 +1092,10 @@
     width:100%;
   }
 
+  .prod-feat .half{
+    width:49%;
+  }
+
   .feat-2 {
     position: relative;
     top: -90px;
@@ -931,6 +1113,7 @@
   footer.large-footer>.main{
     width:90%;
   }
+
 
   }
 /**********************************/
@@ -971,6 +1154,10 @@
     .textbox {
       width: 80%;
       padding-top: 20px;
+    }
+    #about article p {
+      letter-spacing: 0.04rem;
+      line-height: 25px;
     }
 
     .middle-project{
@@ -1031,8 +1218,8 @@
 
     .caseStudy-text {
       font-size: 16px;
-      letter-spacing: .05rem;
-      line-height: 21px;
+      letter-spacing: .02rem;
+      line-height: 24px;
     }
 
     .desc{
@@ -1059,13 +1246,15 @@
     }
 
     .feat-project-text > .desc{
-      margin: 0 17% ;
+      margin: 0 20% ;
       text-align: left;
-      width:70%;
+      width:60%;
+      letter-spacing: 0.03rem;
+      line-height: 25px;
     }
 
     .feat-project > .read-more{
-      margin-left: 17%
+      margin-left: 20%
     }
 
 
@@ -1078,8 +1267,10 @@
     /* end homepage type styles */
 
     .feat-bg {
-      height:390px;
+      height:475px;
       margin-bottom: 70px;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
 
     .feat-project img.screens-for-feat{
@@ -1118,20 +1309,6 @@
     display: none;
     }
 
-    .vertical-line {
-      height:100px;
-      margin: 15px 20px 10px 0px;
-    }
-
-    .sm-vertical-line {
-      height:60px;
-      margin: 15px 20px 0px 0px;
-    }
-
-    .vertical-line-lg {
-      height:210px;
-      margin: 0px 20px 0px 0px;
-    }
     /* end lines */
 
     .quote{
@@ -1194,6 +1371,11 @@
     /* persona */
     .persona-l, .persona-r{
       padding: 0 5%;
+    }
+
+    .persona-l p.caseStudy-text, .persona-r p.caseStudy-text{
+      font-size: 16px;
+      padding: 0;
     }
 
     /* compentive analysis */
@@ -1337,15 +1519,66 @@
       width: 40%;
     }
 
-    footer.large-footer{
+    /*footer.large-footer{
       height:675px;
-    }
+    }*/
 
     }
 
+@media screen and (max-width: 800px) {
 
-  @media screen and (max-width: 670px) {
 
+      .feat-bg {
+        height:380px;
+        margin-bottom: 70px;
+      }
+    }
+
+@media screen and (max-width: 670px) {
+
+    h3{
+      line-height: 40px;
+    }
+    .textbox, .section-label, .half{
+      width: 100%;
+    }
+
+    .half{
+        margin:15px 0;
+    }
+
+    .half h4{
+      padding:0;
+    }
+
+    .mobile-half{
+      display: inline-block;
+      text-align: center;
+      margin-bottom: 30px;
+      margin-top: 30px;
+      width:48%;
+    }
+
+    .third{
+      margin:30px 0;
+    }
+
+    .prod-feat .half{
+      width: 100%;
+    }
+
+    .feat-2{
+      position: unset;
+    }
+
+    .top{
+      padding-top: 50px;
+    }
+
+    .feat-bg {
+      height:330px;
+      margin-bottom: 70px;
+    }
     /*About - name on new line*/
     span.new-line{
       display: block;
@@ -1356,6 +1589,19 @@
       float: none;
       width:100%;
     }
+
+    .small-third, .large-third{
+      width:100%;
+      margin:0 auto;
+      padding: 10px 0;
+    }
+
+    .user-research  .third{
+      width:49%;
+      text-align: left;
+        }
+
+
 
     footer{
       height: 80px;
@@ -1402,9 +1648,9 @@
       width:100%;
     }
 
-    footer.large-footer{
+    /*footer.large-footer{
       height:700px;
-    }
+    }*/
     }
 /**********************************/
 /******* Mobile view **************/
@@ -1602,13 +1848,7 @@
 
 
     /* spacing */
-    .mobile-half{
-      display: inline-block;
-      text-align: center;
-      margin-bottom: 30px;
-      margin-top: 30px;
-      width:48%;
-    }
+
 
     .padding-top {
       margin-top: 30px;
@@ -1655,13 +1895,21 @@
     }
 
     h3{
-      margin: 0 0 10px 0;
+      margin: 15px 0 0px 0;
     }
 
     .third.mobile-half{
       text-align: left;
     }
 
+    #about article p {
+      letter-spacing: 0.03rem;
+      line-height: 24px;
+    }
+
+    .textbox{
+      padding-top: 0;
+    }
     .caseStudy-text {
       font-size: 15px;
     }
@@ -1739,7 +1987,7 @@
     }
 
     .section-label, .textbox {
-      width:90%;
+      width:100%;
     }
 
     /* lines */
@@ -1748,12 +1996,10 @@
     }
 
     .vertical-line {
-      height:120px;
+      margin:15px 0 ;
     }
 
-    .vertical-line-lg {
-      height:275px;
-    }
+
     /* end lines */
     /* challenges insights and solutions */
     /* Role deliverables and tools */
@@ -1777,12 +2023,23 @@
       width:49%;
     }
     /* persona */
+
+    .persona-l, .persona-r{
+      padding:0;
+    }
+
+    .half h4, .half p {
+      width: 100%;
+      /* margin: 0 auto; */
+      padding: 10px 0;
+   }
+
     /* compentive analysis */
     /* user flows and user stories */
     /* branding */
     /* color pallete */
     .color-palette .caseStudy-text,.color-palette .half h4, .fonts .half h4,.fonts .half .caseStudy-text{
-      padding-left:5%;
+      padding-left:0;
     }
     /* low fedelity wireframes */
     /* A AND B TESTING  */
@@ -1905,13 +2162,13 @@
 
 
     footer.large-footer{
-      height:700px;
+      height:350px;
     }
 
-    .large-footer .project {
+    /*.large-footer .project {
       display: inline-block;
         width:48%;
-    }
+    }*/
 
     footer > div > p {
       display: block;
