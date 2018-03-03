@@ -596,13 +596,17 @@
   .mobile-icon{
     background-image: url('../images/Common/mobile-icon.gif');
     background-repeat: no-repeat;
-    background-size: 150px;
-    background-position: 50% -3%;
-    height: 150px;
+    background-size: 170px;
+    background-position: 50% -5%;
+    height: 160px;
     margin-bottom: 15px;
   }
 
-  .desktop-icon:hover, .mobile-icon:hover{
+  .mobile-icon:hover{
+    background-position: 50% 117%;
+  }
+
+  .desktop-icon:hover{
     background-position: 50% 100%;
   }
 
