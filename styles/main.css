@@ -2,6 +2,8 @@
   color:#3F3B50;
 }
 
+.load-smooth{ display: none; }
+
 
 .not-home{
     display: none;

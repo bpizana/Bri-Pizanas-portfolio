@@ -1,3 +1,8 @@
+
+$(document).ready(function() {
+ $('.load-smooth').fadeIn(1500).removeClass('load-smooth');
+});
+
 // When the user scrolls down 25px from the top of the document, slide down the navbar
 window.onscroll = function() {scrollFunction()};
 
@@ -65,3 +70,7 @@ function showDivs(n) {
     }
     x[slideIndex-1].style.display = "block";
 }
+
+
+
+//fade in on load
