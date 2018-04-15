@@ -66,3 +66,55 @@ body{
     width: 33%;
     margin: 0px;
 }
+
+
+
+
+
+
+
+/**********************************/
+/******* Mobile view **************/
+/**********************************/
+ @media screen and (max-width: 500px) {
+   .screens {
+       padding: 20px;
+   }
+
+   .darkbg {
+    padding: 20px;
+    width: 90%;
+  }
+  .main-mas {
+    padding: 20px 5%;
+    /* margin: 0 auto; */
+    width: 90%;
+    overflow: hidden;
+  }
+  .mood-board {
+    background-image: url(../images/maslow/moodboard.png);
+    background-position: center;
+    background-size: auto 320px;
+    background-repeat: no-repeat;
+  }
+  .large-textbox {
+    margin: 0px 0%;
+    width: 100%;
+  }
+  .third {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .feat-bg-maslow {
+    margin-bottom: 0;
+    height: 170px;
+  }
+  img.feat-mobile-screen {
+    position: relative;
+    top: 40px;
+  }
+
+
+ }
