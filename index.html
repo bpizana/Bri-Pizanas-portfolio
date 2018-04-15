@@ -22,7 +22,10 @@
     <link rel="stylesheet" type="text/css" href="styles/MyFontsWebfontsKit.css">
     <!-- Custom Styles -->
     <link rel="stylesheet" href="styles/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script  type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
 
   </head>
   <body>
@@ -58,8 +61,25 @@
       <p class="desc opening">Take a look around if you like what you see, feel free to contact me on <a href="https://www.linkedin.com/in/bpizana/" target="_blank">LinkedIn</a>, download my <a href="/images/resume-BriPizana.pdf" download>resume</a>, or set up a coffee date via <a href="mailto:bripiz@gmail.com">email</a>.</p>
     </header>
     <main class="load-smooth">
+
+    <!-- Maslow  -->
       <section class="feat-project load-smooth">
-        <h3 class="home-page">Featured Project</h3>
+        <h3 class="home-page">Featured Projects</h3>
+         <div class="feat-bg-maslow">
+           <a href="Maslow.html">
+             <img class="feat-logo" src="images/maslow/logo-lg.png"/>
+             <img class="screens-for-feat-maslow" src="images/maslow/hero-2.png" alt="project screenshot"/>
+           </a>
+          </div>
+          <article class="feat-project-text load-smooth">
+             <h2>Maslow</h2>
+             <p class="label">User Experience Design &amp; Branding</p>
+             <p class="desc">Maslow’s is an application that will simplify social media management for Small business owners and Influencers. Maslow does this by providing a centralized interface to all their social media networks and analytics for their scheduled posts, audience engagement, and advertising management.</p>
+          </article>
+          <a class="read-more" href="Maslow.html">Case Study <i class="fas fa-caret-right"></i></a>
+      </section>
+
+      <section class="feat-project load-smooth">
         <div class="feat-bg">
           <a href="Project.html">
             <img class="feat-logo" src="images/space/logo-light-clear.png"/>
@@ -72,7 +92,8 @@
             <p class="desc">Cloud storage is a tool used by almost everyone in both their personal and professional lives. So the goal of Space is to provide a user experience that fits the needs of users no matter what their use case is.</p>
          </article>
          <a class="read-more" href="Project.html">Case Study <i class="fas fa-caret-right"></i></a>
-      </section>
+       </section>
+
 
       <section class="not-home">
         <h3>Other Projects</h3>
@@ -107,6 +128,8 @@
             </a>
           </div>
         </div>
+
+
       </section>
 
      </main>
@@ -162,7 +185,8 @@
         </ul>
       </div>
     </footer>
-    <script src="js/main.js"></script>
+    <script  type='text/javascript' src="js/scripts.js"></script>
+    <script  type='text/javascript' src="js/main.js"></script>
   </body>
 
 

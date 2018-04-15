@@ -281,6 +281,30 @@
 
 
 
+    /***********/
+    /* Maslow */
+    /**********/
+    .maslow{
+      background-color: #21242F;
+    }
+    .feat-bg-maslow {
+      background-image: url("../images/maslow/hero-bg.png");
+      margin-bottom: 110px;
+      background-size:cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .feat-project .screens-for-feat-maslow, img.feat-mobile-screen {
+    width: 1100px;
+    position: relative;
+    top: 54px;
+    left: 5%;
+  }
+
+  .flows{
+    margin-top: 50px;
+  }
+
   /***-----------------------------------------------------------***/
   /***--------- casestudy specific  - ordered by section --------***/
   /***-----------------------------------------------------------***/

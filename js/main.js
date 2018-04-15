@@ -1,8 +1,4 @@
 
-$(document).ready(function() {
- $('.load-smooth').fadeIn(2000).removeClass('load-smooth');
-});
-
 // When the user scrolls down 25px from the top of the document, slide down the navbar
 window.onscroll = function() {scrollFunction()};
 

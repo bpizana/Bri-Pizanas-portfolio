@@ -1,0 +1,68 @@
+body{
+  background-color: #21242F;
+}
+
+.colored{
+  background-image: url('../images/maslow/colored-bg.png');
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 0 44px 0 rgba(0,0,0,0.34);
+}
+.mood-board{
+
+}
+
+.darkbg h1, .darkbg h2,.darkbg h3,.darkbg h4,
+.darkbg p,.darkbg li, .colored p, .colored h3,
+.colored h2 {
+  color: white;
+}
+
+
+.main-mas {
+    padding: 20px 13%;
+    max-width: 1450px;
+    margin: 0 auto;
+    width: 72%;
+}
+
+.darkbg{
+  background-color: #21242F;
+}
+.lightbg{
+  background-color: #FFF;
+}
+.col-2-desktop{
+  float: right;
+  width: 49%;
+  position: relative;
+  top:0;
+}
+
+.screens {
+  background-image: url("../images/maslow/lg-bg.png");
+  background-size: cover;
+  display: inline-block;
+  height:100%;
+  padding:100px;
+}
+
+.screens h3, .screens .caseStudy-text{
+  color:white;
+}
+
+.large-textbox {
+    margin: 0px 10%;
+    width: 80%;
+}
+.screens .darkbg{
+  background-color: #21242F;
+  box-shadow: 0 0 44px 0 rgba(0,0,0,0.34);
+}
+
+.third {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    margin: 0px;
+}
