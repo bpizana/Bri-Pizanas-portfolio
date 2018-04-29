@@ -295,7 +295,7 @@
       background-repeat: no-repeat;
     }
     .feat-project .screens-for-feat-maslow, img.feat-mobile-screen {
-    width: 1100px;
+    width: 90%;
     position: relative;
     top: 54px;
     left: 5%;
@@ -1018,6 +1018,9 @@
     max-width: 90%;
     padding: 0 10%;
   }
+  .feat-project-text > h2 {
+    letter-spacing: 0.2rem;
+  }
 
   h3 {
       font-family: 'PaulGroteskSoft-Bold';
@@ -1140,8 +1143,18 @@
     width:90%;
   }
 
+  /* maslow */
 
+  .feat-project .screens-for-feat-maslow, img.feat-mobile-screen {
+    width: 90%;
+    position: relative;
+    top: 40px;
+    left: 5%;
   }
+  .feat-bg-maslow {
+    margin-bottom: 70px;
+  }
+}
 /**********************************/
 /******* tablet view **************/
 /**********************************/
@@ -1271,18 +1284,22 @@
       line-height: normal;
     }
 
-    .feat-project-text > .desc{
-      margin: 0 20% ;
-      text-align: left;
-      width:60%;
-      letter-spacing: 0.03rem;
-      line-height: 25px;
-    }
+    .feat-project-text > .desc {
+    margin: 0 5%;
+    text-align: left;
+    width: 90%;
+    letter-spacing: 0.03rem;
+    line-height: 25px;
+  }
 
-    .feat-project > .read-more{
-      margin-left: 20%
-    }
-
+  .feat-project > .read-more {
+    margin-left: 5%;
+  }
+  .feat-project-text > h2 {
+      letter-spacing: .2rem;
+      margin-bottom: 10px;
+      text-align: center;
+  }
 
      .logo {
         margin-left:35%;
@@ -1305,6 +1322,17 @@
         top:40px;
         left:10%;
     }
+
+    /* maslow*/
+  .feat-project .screens-for-feat-maslow{
+    width: 90%;
+    position: relative;
+    top: 34px;
+    left: 5%;
+  }
+  .feat-bg-maslow {
+    margin-bottom: 60px;
+  }
 
     /***---------------------------------***/
     /***------ case study - tablet ------***/
@@ -1684,6 +1712,13 @@
  @media screen and (max-width: 500px) {
     /* For mobile phones:  organized- most used/common - nav - type - -pages by section*/
 
+
+    main {
+      padding: 0;
+       margin: 0 auto;
+        width: 90%;
+    }
+
     body {
       max-width: 100%;
     }
@@ -1992,6 +2027,21 @@
       width:70%;
     }
 
+
+    .feat-project .screens-for-feat-maslow{
+    width: 90%;
+    position: relative;
+    top: 24px;
+    left: 5%;
+  }
+
+
+  .feat-bg-maslow {
+    margin-bottom: 40px;
+  }
+  .feat-bg {
+    margin-bottom: 110px;
+  }
     /***---------------------------------***/
     /***------ case study - mobile ------***/
     /***---------------------------------***/
