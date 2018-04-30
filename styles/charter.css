@@ -10,15 +10,14 @@ header.main{
   width:100%;
   max-width: none;
 }
- nav{
+ nav.main{
    position: absolute;
    z-index: 1;
+   width: 66%;
+   padding:0 17%;
    /*background-color: rgba(255,255,255,.1)*/
  }
- nav.main{
-    width: 66%;
-    padding:0 17%;
- }
+
  nav li a{
    color:white;
  }
@@ -245,6 +244,12 @@ header .label{color:white; }
   .info-snippet{
     width:100%;
   }
+  .mood-board {
+    background-image: url(../images/charter/moodboard.png);
+    background-position: center;
+    background-size: auto 320px;
+    background-repeat: no-repeat;
+  }
 }
 
 @media screen and (max-width: 780px) {
@@ -282,7 +287,6 @@ header .label{color:white; }
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
-    background-color: #57B9E6;
     padding: 20px 7%;
   }
   .num-list {
@@ -404,17 +408,5 @@ header .label{color:white; }
   .box {
     padding: 20px;
   }
-
-}
-
-
-@media screen and (min-width: 1300px) {
-  .course-info {
-    width: 64%;
-  }
-  .iteration-info .quarter {
-    width: 35%;
-  }
-
 
 }
