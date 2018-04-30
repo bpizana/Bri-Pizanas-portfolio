@@ -139,6 +139,30 @@ header .label{color:white; }
   border-left: 2px solid #40bdef;
 }
 
+/*@media screen and (max-width: 1050px) {*/
+@media screen and (max-width: 1300px) {
+  .info-snippet {
+    display: inline-block;
+    width: 45%;
+    margin: 0 15px;
+    vertical-align: top;
+  }
+  .iteration-info .quarter{
+    width:80%;
+    margin-left: 10%;
+  }
+  .quarter{
+    display: block;
+  }
+  .course-info{
+    width: 100%;
+  }
+  section.course-info{
+    margin-bottom: 0;
+  }
+
+}
+
 @media screen and (max-width: 1024px) {
   main {
     width: 80%;
@@ -203,6 +227,26 @@ header .label{color:white; }
     margin: 0 15px 0 0;
   }
 }
+@media screen and (max-width: 950px) {
+  .iteration-info .quarter{
+    display: block;
+    width:80%;
+    margin-left: 10%;
+  }
+  .quarter{
+    display: block;
+  }
+  .course-info{
+    width: 100%;
+  }
+  section.course-info{
+    margin-bottom: 0;
+  }
+  .info-snippet{
+    width:100%;
+  }
+}
+
 @media screen and (max-width: 780px) {
   .flows.off{
     display: none;
@@ -360,5 +404,17 @@ header .label{color:white; }
   .box {
     padding: 20px;
   }
+
+}
+
+
+@media screen and (min-width: 1300px) {
+  .course-info {
+    width: 64%;
+  }
+  .iteration-info .quarter {
+    width: 35%;
+  }
+
 
 }
