@@ -279,7 +279,11 @@
       left:15%;
   }
 
-
+  .feat-project {
+    background-color:#F9F9F9;
+    padding-bottom: 40px;
+    border-radius: 5px;
+  }
 
     /***********/
     /* Maslow */
@@ -303,6 +307,29 @@
 
   .flows{
     margin-top: 50px;
+  }
+
+  /***********/
+  /* Charter */
+  /**********/
+  .feat-bg-charter {
+    background-color:#F9F9F9;
+    margin-bottom: 20px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+    .feat-project .screens-for-feat-charter, img.feat-mobile-screen {
+
+  }
+
+  .flows{
+    margin-top: 50px;
+  }
+
+  .caption{
+    color:#929192;
+    font-family: 'PaulGroteskSoft-UltraLight';
   }
 
   /***-----------------------------------------------------------***/

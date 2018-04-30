@@ -1,0 +1,202 @@
+body{
+  background-color: #F9F9F9;
+}
+header.main{
+  background-image: url(../images/charter/large-charter-3.png);
+  background-size: cover;
+  background-repeat:none;
+  background-position: center;
+  height:800px;
+  width:100%;
+  max-width: none;
+}
+ nav{
+   position: absolute;
+   z-index: 1;
+   /*background-color: rgba(255,255,255,.1)*/
+ }
+ nav.main{
+    width: 66%;
+    padding:0 17%;
+ }
+ nav li a{
+   color:white;
+ }
+
+img.feat-logo-project{
+  margin-top: 90px;
+}
+header .label{color:white; }
+
+.colored{
+  background-image: url(../images/charter/colored.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 30px;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.10);
+}
+.design-role, .colored h4, .colored h3, .colored h2, .colored p{
+  color:white;
+}
+
+.box {
+  background: #FFFFFF;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.10);
+  border-radius: 30px;
+  padding: 30px;
+  margin:40px 0;
+}
+.box-bottom {
+  background: #FFFFFF;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.10);
+  padding: 30px;
+  border-radius: 0 0 30px 30px;
+  margin:0 0 40px 0;
+}
+
+.col-2-desktop{
+  position: unset;
+}
+
+.margin-bottom{
+  margin-bottom: 50px;
+}
+
+.sub-label {
+    color: #46b7e5;
+    font-family: 'PaulGrotesk-SemiBold';
+    font-size: 16px;
+    letter-spacing: 0.05rem;
+    margin-top: 4px;
+    margin-bottom: 0;
+    padding-left: 16px;
+}
+
+.iteration-info .quarter{
+  width:24%;
+  padding-top: 15px;
+}
+.course-info{
+  width:75%;
+  display: inline-block;
+}
+
+.number-oval{
+  background-color:#FF4242;
+  width:30px;
+  height:30px;
+  border-radius: 50%;
+}
+.number-oval p {
+  color: white;
+  text-align: center;
+  line-height: 30px;
+  font-family: 'PaulGrotesk-bold';
+}
+.iteration-info .caseStudy-text{
+  width:86%;
+  float:right;
+}
+
+.info-snippet{
+  display: inline-block;
+}
+
+.subhead{
+  color: #46b7e5;
+}
+
+.main-charter {
+  background-image: url(../images/charter/bg-bottom.png);
+  background-size: cover;
+  background-position: top;
+  padding: 20px 13%;
+  max-width: unset;
+  margin: 0 auto;
+}
+
+.main-charter h3,.main-charter p{
+  color:white;
+}
+.main-charter .box p, .main-charter .box h3{
+  color:#3F3B50;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  header.main{
+    background-image: url(../images/charter/tall-charter.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    height:800px;
+    width:100%;
+    max-width: none;
+  }
+  h1{
+    font-size: 55px;
+  }
+  .label{
+    font-size: 10px;
+  }
+  .small-third .left, .small-third .right{
+    float:none;
+  }
+  .iteration-info .quarter{
+    display: block;
+    width:80%;
+
+  }
+  .quarter{
+    display: block;
+  }
+  .course-info{
+    width: 100%;
+  }
+  section.course-info{
+    margin-bottom: 0;
+  }
+
+}
+@media screen and (max-width: 780px) {
+  .flows.off{
+    display: none;
+  }
+  main {
+    padding: 0px 5%;
+    width: 90%;
+  }
+  h3{
+    line-height: 30px;
+  }
+
+  header.main{
+    background-image: url(../images/charter/med-charter-3.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: top;
+    height:515px;
+    width:100%;
+    max-width: none;
+  }
+
+  img.feat-logo-project {
+    margin-top: 80px;
+    width:20%;
+  }
+  .main-charter {
+    background-image: url(../images/charter/bg-bottom-2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #57B9E6;
+    padding: 20px 7%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  header.main{
+    background-image: url(../images/charter/small-charter.png);
+  }
+}
